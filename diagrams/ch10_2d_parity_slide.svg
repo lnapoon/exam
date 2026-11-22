@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 396" width="100%" height="auto">
+  <rect width="1080" height="396" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 10.6: ตัวอย่าง Two-Dimensional (2D) Parity Check ตรงตามสไลด์หน้า 174</text>
+  <rect x="24" y="56" width="560" height="320" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">ตารางข้อมูล 4 ชุด × 7 บิต + Row Parities + Column Parities</text>
+  <rect x="44" y="104" width="520" height="250" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="64" y="142" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#475569">ชุดที่ 1:</text>
+  <text x="154" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="192" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="230" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="268" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="306" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="344" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="382" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <line x1="418" y1="124" x2="418" y2="154" stroke="#7c3aed" stroke-width="2"/>
+  <text x="456" y="142" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#dc2626">1</text>
+  <text x="482" y="142" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#7c3aed">Row Parity</text>
+  <text x="64" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#475569">ชุดที่ 2:</text>
+  <text x="154" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="192" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="230" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="268" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="306" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="344" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="382" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <line x1="418" y1="162" x2="418" y2="192" stroke="#7c3aed" stroke-width="2"/>
+  <text x="456" y="180" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#dc2626">1</text>
+  <text x="64" y="218" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#475569">ชุดที่ 3:</text>
+  <text x="154" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="192" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="230" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="268" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="306" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="344" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="382" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <line x1="418" y1="200" x2="418" y2="230" stroke="#7c3aed" stroke-width="2"/>
+  <text x="456" y="218" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#dc2626">0</text>
+  <text x="64" y="256" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#475569">ชุดที่ 4:</text>
+  <text x="154" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="192" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="230" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="268" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <text x="306" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="344" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">0</text>
+  <text x="382" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#0f172a">1</text>
+  <line x1="418" y1="238" x2="418" y2="268" stroke="#7c3aed" stroke-width="2"/>
+  <text x="456" y="256" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#dc2626">1</text>
+  <line x1="134" y1="274" x2="476" y2="274" stroke="#2563eb" stroke-width="2.2"/>
+  <text x="64" y="308" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1d4ed8">Col Par:</text>
+  <text x="154" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">0</text>
+  <text x="192" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">1</text>
+  <text x="230" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">0</text>
+  <text x="268" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">1</text>
+  <text x="306" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">0</text>
+  <text x="344" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">1</text>
+  <text x="382" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#1d4ed8">0</text>
+  <text x="456" y="308" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="15" font-weight="bold" fill="#dc2626">1</text>
+  <text x="304" y="342" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="bold" fill="#475569">ส่งออก 5 ชุด ชุดละ 8 บิต (รวม 40 บิต)</text>
+  <rect x="604" y="56" width="452" height="320" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="624" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">จุดเด่นและจุดอ่อนของ 2D Parity (ออกสอบ!)</text>
+  <rect x="624" y="108" width="412" height="118" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="642" y="132" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">ข้อดี (เหนือกว่า Simple Parity):</text>
+  <text x="642" y="156" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">• ตรวจจับความผิดพลาด 1, 2 หรือ 3 บิตได้ 100%</text>
+  <text x="642" y="177" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">• แม้บิตในแถวเดียวกันเสีย 2 บิต (Row Parity จับไม่ได้) แต่</text>
+  <text x="642" y="198" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">Column Parity แนวตั้งจะจับได้ทันที!</text>
+  <rect x="624" y="240" width="412" height="114" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="642" y="264" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#991b1b">จุดอ่อนเดียวที่ตรวจจับไม่ได้:</text>
+  <text x="642" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">• หากเกิดบิตเสีย 4 บิต พร้อมกันในตำแหน่ง 'มุมสี่เหลี่ยมผืนผ้า' (2</text>
+  <text x="642" y="309" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">แถว × 2 คอลัมน์ตรงกันพอดี)</text>
+  <text x="642" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">พาริตี้ทั้งแนวตั้งและแนวนอนจะไม่เปลี่ยน!</text>
+</svg>

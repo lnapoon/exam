@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 448" width="100%" height="auto">
+  <rect width="1080" height="448" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 2: การทำงานแบบเป็นลำดับชั้น (Layered Tasks) &amp; Peer-to-Peer / Interface</text>
+  <rect x="24" y="56" width="496" height="360" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) อุปมาการส่งจดหมายทางไปรษณีย์ (3 ลำดับขั้น)</text>
+  <rect x="44" y="102" width="196" height="58" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="142" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">ชั้นบน (ผู้ส่ง)</text>
+  <text x="142" y="146" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">เขียนจดหมาย ใส่ซอง หย่อนตู้</text>
+  <rect x="304" y="102" width="196" height="58" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="402" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">ชั้นบน (ผู้รับ)</text>
+  <text x="402" y="146" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">หยิบจากตู้ แกะซอง อ่าน</text>
+  <rect x="44" y="188" width="196" height="58" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="142" y="212" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">ชั้นกลาง (ไปรษณีย์)</text>
+  <text x="142" y="232" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">บุรุษไปรษณีย์เก็บไปที่ทำการ</text>
+  <rect x="304" y="188" width="196" height="58" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="402" y="212" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">ชั้นกลาง (ไปรษณีย์)</text>
+  <text x="402" y="232" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">บุรุษไปรษณีย์นำส่งถึงบ้าน</text>
+  <rect x="44" y="274" width="196" height="58" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="142" y="298" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#14532d">ชั้นล่าง (คัดแยก/ขนส่ง)</text>
+  <text x="142" y="318" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">คัดแยกและส่งขึ้นรถขนส่ง</text>
+  <rect x="304" y="274" width="196" height="58" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="402" y="298" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#14532d">ชั้นล่าง (คัดแยก/ขนส่ง)</text>
+  <text x="402" y="318" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">รับจากรถขนส่งและคัดแยก</text>
+  <line x1="142.0" y1="160.0" x2="142.0" y2="178.0" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="142.0,186.0 136.5,176.0 147.5,176.0" fill="#2563eb"/>
+  <line x1="142.0" y1="246.0" x2="142.0" y2="264.0" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="142.0,272.0 136.5,262.0 147.5,262.0" fill="#2563eb"/>
+  <line x1="240.0" y1="303.0" x2="294.0" y2="303.0" stroke="#16a34a" stroke-width="3"/>
+  <polygon points="302.0,303.0 292.0,308.5 292.0,297.5" fill="#16a34a"/>
+  <line x1="402.0" y1="274.0" x2="402.0" y2="256.0" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="402.0,248.0 407.5,258.0 396.5,258.0" fill="#2563eb"/>
+  <line x1="402.0" y1="188.0" x2="402.0" y2="170.0" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="402.0,162.0 407.5,172.0 396.5,172.0" fill="#2563eb"/>
+  <text x="272" y="368" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#1e40af">หัวใจสำคัญ: ต้องทำงานเรียงตามลำดับชั้น (Hierarchy) ข้ามขั้นไม่ได้</text>
+  <text x="272" y="392" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ฝั่งผู้ส่งทำจากบนลงล่าง (3→2→1) | ฝั่งผู้รับทำจากล่างขึ้นบน (1→2→3)</text>
+  <rect x="540" y="56" width="516" height="372" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="560" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Peer-to-Peer Processes &amp; Interface ระหว่างเลเยอร์</text>
+  <rect x="566" y="114" width="144" height="44" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="638" y="141" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">Layer N (เครื่อง A)</text>
+  <rect x="886" y="114" width="144" height="44" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="958" y="141" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">Layer N (เครื่อง B)</text>
+  <line x1="720.0" y1="136.0" x2="876.0" y2="136.0" stroke="#7c3aed" stroke-width="2.4" stroke-dasharray="6,5"/>
+  <polygon points="884.0,136.0 874.0,141.5 874.0,130.5" fill="#7c3aed"/>
+  <polygon points="712.0,136.0 722.0,130.5 722.0,141.5" fill="#7c3aed"/>
+  <text x="798" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="bold" fill="#7c3aed">Logical (เสมือนคุยตรง)</text>
+  <rect x="566" y="200" width="144" height="44" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="638" y="227" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">Layer N-1 (เครื่อง A)</text>
+  <rect x="886" y="200" width="144" height="44" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="958" y="227" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">Layer N-1 (เครื่อง B)</text>
+  <line x1="720.0" y1="222.0" x2="876.0" y2="222.0" stroke="#2563eb" stroke-width="2.4" stroke-dasharray="6,5"/>
+  <polygon points="884.0,222.0 874.0,227.5 874.0,216.5" fill="#2563eb"/>
+  <polygon points="712.0,222.0 722.0,216.5 722.0,227.5" fill="#2563eb"/>
+  <line x1="638.0" y1="158.0" x2="638.0" y2="190.0" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="638.0,198.0 632.5,188.0 643.5,188.0" fill="#dc2626"/>
+  <text x="650" y="183" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#dc2626">Interface</text>
+  <line x1="958.0" y1="200.0" x2="958.0" y2="168.0" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="958.0,160.0 963.5,170.0 952.5,170.0" fill="#dc2626"/>
+  <text x="946" y="183" text-anchor="end" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#dc2626">Interface</text>
+  <rect x="566" y="260" width="464" height="154" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="584" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">จุดออกสอบสำคัญ:</text>
+  <text x="584" y="304" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• Peer-to-Peer Process: กระบวนการในเลเยอร์เดียวกันระหว่าง 2</text>
+  <text x="584" y="324" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">เครื่อง ที่สื่อสารกันเสมือนคุยตรงด้วยโพรโตคอลเดียวกัน (ยกเว้นชั้น</text>
+  <text x="584" y="344" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">Physical)</text>
+  <text x="584" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• Interface: ส่วนเชื่อมต่อระหว่างเลเยอร์ที่ติดกัน</text>
+  <text x="584" y="384" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">ช่วยให้พัฒนาหรือเปลี่ยนการทำงานภายในเลเยอร์หนึ่งได้โดยไม่กระทบชั้นอื่น</text>
+</svg>

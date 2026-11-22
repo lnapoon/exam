@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 484" width="100%" height="auto">
+  <rect width="1080" height="484" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 7: โครงสร้างสื่อแบบมีสาย (Guided Media) ทั้ง 3 ชนิด และคอนเน็กเตอร์มาตรฐาน</text>
+  <rect x="24" y="56" width="328" height="408" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) สายคู่ตีเกลียว (Twisted-Pair)</text>
+  <path d="M 68 128 Q 108 96 148 128 T 228 128 T 308 128" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <path d="M 68 128 Q 108 160 148 128 T 228 128 T 308 128" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="188" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.4" font-weight="bold" fill="#0f172a">ทำไมต้องตีเกลียว? → หักล้างสัญญาณรบกวน (Noise)</text>
+  <rect x="42" y="192" width="292" height="134" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="58" y="216" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">• เปรียบเทียบ UTP vs STP:</text>
+  <text x="58" y="238" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">STP (พัฒนาโดย IBM) มีเกราะโลหะหุ้ม</text>
+  <text x="58" y="258" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">ป้องกันสัญญาณรบกวนดีกว่า แต่แพงและหนัก</text>
+  <text x="58" y="278" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">UTP ไม่มีเกราะหุ้ม นิยมใช้มากที่สุด (Cat 1–7)</text>
+  <rect x="42" y="340" width="292" height="108" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="58" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">• คอนเน็กเตอร์: RJ-45 (8 ขา)</text>
+  <text x="58" y="386" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">เสียบได้ทิศทางเดียว (Keyed connector)</text>
+  <text x="58" y="406" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">ขนาดสายวัดเป็น AWG (ตัวเลขน้อย = สายใหญ่)</text>
+  <rect x="376" y="56" width="328" height="408" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) สายโคแอ็กเชียล (Coaxial Cable)</text>
+  <rect x="412" y="108" width="66" height="40" fill="#334155" rx="3"/>
+  <rect x="478" y="114" width="54" height="28" fill="#94a3b8"/>
+  <rect x="532" y="119" width="54" height="18" fill="#e2e8f0" stroke="#64748b"/>
+  <line x1="586" y1="128" x2="664" y2="128" stroke="#d97706" stroke-width="6"/>
+  <text x="540" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ปลอกนอก → ตาข่ายโลหะ → ฉนวน → แกนทองแดง</text>
+  <rect x="394" y="192" width="292" height="134" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="410" y="216" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#92400e">• มาตรฐาน RG (Radio Government):</text>
+  <text x="410" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• RG-59 (75 Ω): เคเบิลทีวี (CATV)</text>
+  <text x="410" y="264" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• RG-58 (50 Ω): Thin Ethernet (10Base2)</text>
+  <text x="410" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• RG-11 (50 Ω): Thick Ethernet (10Base5)</text>
+  <rect x="394" y="340" width="292" height="108" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="410" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#14532d">• คอนเน็กเตอร์ตระกูล BNC:</text>
+  <text x="410" y="386" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">1. BNC Connector | 2. BNC-T (สามทาง)</text>
+  <text x="410" y="406" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">3. BNC Terminator (ปิดปลายสายกันสะท้อน)</text>
+  <rect x="728" y="56" width="328" height="408" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) สายไฟเบอร์ออปติก (Fiber-Optic)</text>
+  <rect x="766" y="104" width="252" height="48" rx="6" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <line x1="766" y1="116" x2="1018" y2="116" stroke="#93c5fd" stroke-width="2"/>
+  <line x1="766" y1="140" x2="1018" y2="140" stroke="#93c5fd" stroke-width="2"/>
+  <path d="M 774 128 L 832 116 L 902 140 L 972 116 L 1010 128" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="892" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">Core (หนาแน่นสูง) หุ้มด้วย Cladding (หนาแน่นต่ำ)</text>
+  <rect x="746" y="192" width="292" height="134" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="762" y="216" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#14532d">• โครงสร้างและหลักการทางแสง:</text>
+  <text x="762" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• มุมตกกระทบ (I) &gt; มุมวิกฤติ →</text>
+  <text x="762" y="264" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">สะท้อนกลับหมด</text>
+  <text x="762" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• เปลือกนอก: Polyurethane / PVC</text>
+  <text x="762" y="312" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• เสริมความแข็งแรงด้วยเส้นใย Kevlar</text>
+  <rect x="746" y="340" width="292" height="108" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="762" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">• คอนเน็กเตอร์ 3 แบบหลัก:</text>
+  <text x="762" y="386" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">• SC (Push/Pull ดัน-ดึง) | • ST (Bayonet</text>
+  <text x="762" y="406" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">บิดล็อก)</text>
+  <text x="762" y="426" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">• MT-RJ (ขนาดกะทัดรัดเท่าหัว RJ-45)</text>
+</svg>

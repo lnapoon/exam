@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 464" width="100%" height="auto">
+  <rect width="1080" height="464" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 8: โครงแบบดาวเทียมไมโครเวฟ 3 แบบ + Free Space Optics (FSO) + WLAN</text>
+  <rect x="24" y="56" width="328" height="206" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">1) Bulk Carrier Configuration</text>
+  <text x="42" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• สถานีภาคพื้นดินรวบรวมช่องสัญญาณจำนวนมากส่ง</text>
+  <text x="42" y="136" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">  ขึ้นดาวเทียม</text>
+  <text x="42" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ความถี่ Uplink (ขาขึ้น): 6 GHz</text>
+  <text x="42" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ความถี่ Downlink (ขาลง): 4 GHz</text>
+  <text x="42" y="202" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">(ต้องใช้ความถี่ต่างกันเพื่อไม่ให้สัญญาณกวนกัน)</text>
+  <rect x="376" y="56" width="328" height="206" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">2) Multiplex Configuration</text>
+  <text x="394" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• แบ่งแบนด์วิดท์ให้หลายสถานีใช้ร่วมกัน</text>
+  <text x="394" y="136" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">ควบคุมด้วยระบบการจอง 2 แบบ:</text>
+  <text x="394" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">1. การจองส่วนกลาง (Centralized):</text>
+  <text x="394" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">มีสถานีหลักจัดสรรช่องสัญญาณ</text>
+  <text x="394" y="202" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">2. การจองแบบกระจาย (Distributed):</text>
+  <text x="394" y="224" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">ทุกสถานีตกลงจองร่วมกันเอง</text>
+  <rect x="728" y="56" width="328" height="206" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">3) Single-User Earth Station</text>
+  <text x="746" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• จานรับ-ส่งขนาดเล็กสำหรับผู้ใช้รายเดียว</text>
+  <text x="746" y="136" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ระบบ VSAT (Very Small Aperture Terminal)</text>
+  <text x="746" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ใช้จานดาวเทียมขนาดเล็กเพียง 18 นิ้ว</text>
+  <text x="746" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• นิยมใช้เชื่อมสาขาธนาคาร / ร้านค้าปลีก</text>
+  <rect x="24" y="278" width="514" height="166" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="44" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#92400e">Free Space Optics (FSO — สื่อสารด้วยเลเซอร์ไร้สาย)</text>
+  <text x="44" y="332" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• พัฒนาโดยกองทัพสหรัฐฯ ทศวรรษ 1960</text>
+  <text x="44" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">ยิงลำแสงเลเซอร์แนวเล็งระหว่างอาคาร</text>
+  <text x="44" y="376" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ข้อดีเด่น: ไม่ต้องขุดสาย และไม่มีข้อจำกัดทางกฎหมายหรือค่าลิขสิทธิ์ความถี่!</text>
+  <text x="44" y="398" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ข้อจำกัด: แพ้หมอกหนา ฝุ่นควัน ฝนตกหนัก และการสั่นไหวของอาคารสูง</text>
+  <rect x="558" y="278" width="498" height="166" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="578" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">เครือข่ายแลนไร้สาย (Wireless LAN / WLAN)</text>
+  <text x="578" y="332" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ใช้อุปกรณ์กระจายสัญญาณเรียกว่า Access Point (AP) เชื่อมกับเครือข่ายมีสาย</text>
+  <text x="578" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ประโยชน์: เคลื่อนย้ายสะดวก ติดตั้งง่ายในจุดที่เดินสายลำบาก</text>
+  <text x="578" y="376" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">ขยายระบบได้ง่าย</text>
+  <text x="578" y="398" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ข้อควรระวังสำคัญ: ความปลอดภัยของข้อมูล (สัญญาณแพร่ในอากาศ</text>
+  <text x="578" y="420" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">ดักฟังได้ง่าย)</text>
+</svg>

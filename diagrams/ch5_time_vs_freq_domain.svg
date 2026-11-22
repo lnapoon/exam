@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 430" width="100%" height="auto">
+  <rect width="1080" height="430" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 5: กราฟ Time-Domain vs Frequency-Domain และตารางมาตรวัดทางวิทยาศาสตร์</text>
+  <rect x="24" y="56" width="506" height="204" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) Time-Domain Plot (แกนตั้ง = แอมพลิจูด, แกนนอน = เวลา)</text>
+  <line x1="60" y1="162" x2="496" y2="162" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="60" y1="104" x2="60" y2="218" stroke="#64748b" stroke-width="1.8"/>
+  <path d="M 60 162 Q 95 104 130 162 T 200 162 T 270 162 T 340 162 T 410 162 T 480 162" fill="none" stroke="#2563eb" stroke-width="2.8"/>
+  <text x="277" y="242" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">แสดงการเปลี่ยนแปลงของแอมพลิจูดตามเวลา (ตัวอย่าง: ความถี่ 6 Hz, A = 5V)</text>
+  <rect x="550" y="56" width="506" height="204" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="570" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Frequency-Domain Plot (แกนตั้ง = A สูงสุด, แกนนอน = ความถี่)</text>
+  <line x1="586" y1="214" x2="1020" y2="214" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="586" y1="104" x2="586" y2="214" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="696" y1="214" x2="696" y2="124" stroke="#dc2626" stroke-width="6"/>
+  <text x="696" y="116" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#dc2626">5V</text>
+  <text x="696" y="234" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">6 Hz</text>
+  <text x="750" y="146" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">คลื่นไซน์เดี่ยว 1 คลื่น แทนด้วยแท่งกราฟเพียง 1</text>
+  <text x="750" y="167" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">แท่ง!</text>
+  <text x="750" y="188" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">(ช่วยให้มองเห็นช่วง Bandwidth</text>
+  <text x="750" y="209" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">ของสัญญาณผสมได้ชัดเจนและกะทัดรัด)</text>
+  <rect x="24" y="276" width="1032" height="134" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="44" y="304" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#92400e">3) ตารางที่ 5.1 มาตรวัดทางวิทยาศาสตร์ (ความถี่ Hz จับคู่ตรงข้ามกับ คาบเวลา s เสมอ!)</text>
+  <text x="44" y="336" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• ฝั่งค่าใหญ่ (ความถี่):   Kilo (k) = 10^3  |  Mega (M) = 10^6  |  Giga (G) = 10^9   |  Tera (T) = 10^12</text>
+  <text x="44" y="364" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• ฝั่งค่าเล็ก (คาบเวลา):  milli (m) = 10^-3 |  micro (μ) = 10^-6 |  nano (n) = 10^-9 |  pico (p) = 10^-12</text>
+  <text x="44" y="392" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#dc2626">ทริคคำนวณเร็ว: 1 kHz ↔ 1 ms  |  1 MHz ↔ 1 μs  |  1 GHz ↔ 1 ns  |  1 THz ↔ 1 ps (จับคู่ตรงข้ามกันพอดี!)</text>
+</svg>

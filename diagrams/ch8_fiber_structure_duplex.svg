@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 422" width="100%" height="auto">
+  <rect width="1080" height="422" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 8: คุณสมบัติเด่น 6 ประการของใยแก้วนำแสง และข้อจำกัดการส่งทิศทางเดียว</text>
+  <rect x="24" y="56" width="540" height="346" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">1) คุณสมบัติเด่น 6 ประการของสายใยแก้วนำแสง (หน้า 180–182)</text>
+  <text x="44" y="118" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">1. แบนด์วิดท์สูงมาก ส่งข้อมูลปริมาณมหาศาลระดับ Gbps–Tbps</text>
+  <text x="44" y="154" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">2. น้ำหนักเบาและขนาดเล็กกว่าสายทองแดงมาก ติดตั้งในท่อแคบได้ง่าย</text>
+  <text x="44" y="190" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">3. ไม่ถูกรบกวนจากคลื่นแม่เหล็กไฟฟ้า (EMI/RFI) และไม่มี Crosstalk</text>
+  <text x="44" y="226" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">4. การลดทอนสัญญาณต่ำมาก ส่งข้อมูลระยะไกลโดยไม่ต้องทวนบ่อย</text>
+  <text x="44" y="262" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">5. ความปลอดภัยของข้อมูลสูงมาก ดักจับสัญญาณจากภายนอกได้ยาก</text>
+  <text x="44" y="298" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">6. ทนทานต่อการกัดกร่อน และปลอดภัยจากประกายไฟ (ไม่นำไฟฟ้า)</text>
+  <text x="44" y="334" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">*ข้อเสีย: อุปกรณ์ปลายทางแพง ตัดต่อยาก และเปราะหักง่ายเมื่อดัดโค้งมาก</text>
+  <rect x="584" y="56" width="472" height="346" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="604" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) ข้อจำกัดสำคัญ: ส่งแสงได้ทิศทางเดียว (Simplex)!</text>
+  <rect x="604" y="110" width="104" height="96" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="656" y="152" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">อุปกรณ์ A</text>
+  <text x="656" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">(Tx / Rx)</text>
+  <rect x="932" y="110" width="104" height="96" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="984" y="152" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">อุปกรณ์ B</text>
+  <text x="984" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">(Rx / Tx)</text>
+  <line x1="710.0" y1="138.0" x2="920.0" y2="138.0" stroke="#dc2626" stroke-width="3"/>
+  <polygon points="928.0,138.0 918.0,143.5 918.0,132.5" fill="#dc2626"/>
+  <text x="820" y="128" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#dc2626">สายไฟเบอร์เส้นที่ 1 (A → B)</text>
+  <line x1="928.0" y1="180.0" x2="718.0" y2="180.0" stroke="#16a34a" stroke-width="3"/>
+  <polygon points="710.0,180.0 720.0,174.5 720.0,185.5" fill="#16a34a"/>
+  <text x="820" y="200" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#16a34a">สายไฟเบอร์เส้นที่ 2 (B → A)</text>
+  <rect x="604" y="232" width="432" height="148" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="622" y="258" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">จุดออกสอบที่มักโดนหลอก:</text>
+  <text x="622" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• เส้นใยนำแสง 1 เส้น ส่งลำแสงได้เพียง 'ทิศทางเดียว (Simplex)'</text>
+  <text x="622" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">เท่านั้น</text>
+  <text x="622" y="328" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• หากต้องการสื่อสาร 2 ทิศทาง (Full-Duplex)</text>
+  <text x="622" y="350" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ต้องเดินสายใยแก้วนำแสงคู่กันจำนวน 2 เส้น (แยกส่ง Tx และรับ Rx)</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 400" width="100%" height="auto">
+  <rect width="1080" height="400" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 5: การวัดความสูญเสียสัญญาณเป็นเดซิเบล (dB) และกระบวนการ Block Coding (mB/nB)</text>
+  <rect x="24" y="56" width="514" height="324" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) การอ่อนแรงของสัญญาณ (Attenuation &amp; Decibel)</text>
+  <text x="44" y="118" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#1d4ed8">สูตรกำลังไฟฟ้า:  dB = 10 log10 (P2 / P1)</text>
+  <text x="44" y="144" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#7c3aed">สูตรแรงดันไฟฟ้า: dB = 20 log10 (V2 / V1)</text>
+  <rect x="44" y="162" width="474" height="198" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="62" y="188" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">ตัวเลขเดซิเบลที่ออกสอบบ่อยที่สุด (ต้องจำแม่น!):</text>
+  <text x="62" y="216" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• dB = -3 dB  → กำลังลดลงเหลือครึ่งหนึ่ง (P2 = 0.5 P1)</text>
+  <text x="62" y="241" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• dB = +3 dB  → กำลังเพิ่มขึ้นเป็น 2 เท่า (P2 = 2 P1)</text>
+  <text x="62" y="266" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• dB = -10 dB → กำลังลดลงเหลือ 1 ใน 10 (P2 = 0.1 P1)</text>
+  <text x="62" y="291" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• dB = -20 dB → กำลังลดลงเหลือ 1 ใน 100 (P2 = 0.01 P1)</text>
+  <text x="62" y="316" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">หมายเหตุ: dB ติดลบ = สัญญาณสูญเสีย | dB เป็นบวก = ขยายสัญญาณ</text>
+  <rect x="558" y="56" width="498" height="324" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) การเข้ารหัสแบบบล็อก (Block Coding: เช่น 4B/5B)</text>
+  <rect x="578" y="108" width="458" height="72" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="807" y="134" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#1e3a8a">ขั้นที่ 1: การแบ่งข้อมูล (Division)</text>
+  <text x="807" y="158" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">แบ่งบิตข้อมูลเป็นกลุ่มละ m บิต (เช่น 4 บิต มี 2^4 = 16 รูปแบบ)</text>
+  <line x1="807.0" y1="180.0" x2="807.0" y2="190.0" stroke="#2563eb" stroke-width="2.4"/>
+  <polygon points="807.0,198.0 801.5,188.0 812.5,188.0" fill="#2563eb"/>
+  <rect x="578" y="200" width="458" height="72" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="807" y="226" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#5b21b6">ขั้นที่ 2: การแทนค่า (Substitution)</text>
+  <text x="807" y="250" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">แทนกลุ่ม m บิต ด้วยรหัส n บิต (n &gt; m เช่น 5 บิต มี 32 รูปแบบ)</text>
+  <line x1="807.0" y1="272.0" x2="807.0" y2="282.0" stroke="#7c3aed" stroke-width="2.4"/>
+  <polygon points="807.0,290.0 801.5,280.0 812.5,280.0" fill="#7c3aed"/>
+  <rect x="578" y="292" width="458" height="72" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="807" y="318" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#14532d">ขั้นที่ 3: การเข้ารหัสเชิงเส้น (Line Coding)</text>
+  <text x="807" y="342" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#334155">แปลงเป็นสัญญาณดิจิทัล (รหัสส่วนเกิน 2^n - 2^m ใช้ตรวจจับผิดพลาด)</text>
+</svg>

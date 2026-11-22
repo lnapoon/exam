@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 412" width="100%" height="auto">
+  <rect width="1080" height="412" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 7 &amp; 8: วิธีการแพร่กระจายคลื่นไร้สาย 3 โหมด (Wireless Propagation Methods)</text>
+  <rect x="24" y="56" width="328" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) Ground Propagation</text>
+  <text x="188" y="110" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#2563eb">ความถี่ &lt; 2 MHz (VLF, LF)</text>
+  <path d="M 48 250 Q 188 206 328 250" fill="none" stroke="#16a34a" stroke-width="4.5"/>
+  <line x1="76" y1="238" x2="76" y2="184" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="300" y1="238" x2="300" y2="184" stroke="#0f172a" stroke-width="3.5"/>
+  <path d="M 82 192 Q 188 154 294 192" fill="none" stroke="#2563eb" stroke-width="2.8"/>
+  <line x1="276.0" y1="185.0" x2="288.4" y2="189.4" stroke="#2563eb" stroke-width="2.8"/>
+  <polygon points="296.0,192.0 284.7,193.9 288.4,183.5" fill="#2563eb"/>
+  <text x="44" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• คลื่นวิทยุความถี่ต่ำเคลื่อนที่เรียบไปตามความโค้</text>
+  <text x="44" y="308" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">  งของพื้นผิวโลก</text>
+  <text x="44" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• ระยะทางขึ้นอยู่กับกำลังส่งของสัญญาณ</text>
+  <rect x="376" y="56" width="328" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Sky Propagation</text>
+  <text x="540" y="110" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#7c3aed">ความถี่ 2 – 30 MHz (MF, HF)</text>
+  <text x="540" y="134" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#7c3aed">ชั้นบรรยากาศ Ionosphere</text>
+  <path d="M 400 156 Q 540 138 680 156" fill="none" stroke="#8b5cf6" stroke-width="5" stroke-dasharray="7,5"/>
+  <path d="M 400 250 Q 540 206 680 250" fill="none" stroke="#16a34a" stroke-width="4.5"/>
+  <line x1="428" y1="238" x2="428" y2="196" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="652" y1="238" x2="652" y2="196" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="432" y1="198" x2="540" y2="152" stroke="#7c3aed" stroke-width="2.6"/>
+  <line x1="540.0" y1="152.0" x2="638.7" y2="194.8" stroke="#7c3aed" stroke-width="2.6"/>
+  <polygon points="646.0,198.0 634.6,199.1 639.0,189.0" fill="#7c3aed"/>
+  <text x="396" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• ยิงคลื่นขึ้นไปสะท้อนชั้น Ionosphere</text>
+  <text x="396" y="308" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">กลับลงมายังพื้นโลกในระยะไกล</text>
+  <text x="396" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• ใช้กำลังส่งน้อยกว่า (เช่น วิทยุ AM/สมัครเล่น)</text>
+  <rect x="728" y="56" width="328" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) Line-of-Sight Propagation</text>
+  <text x="892" y="110" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">ความถี่ &gt; 30 MHz (VHF–EHF)</text>
+  <path d="M 752 250 Q 892 206 1032 250" fill="none" stroke="#16a34a" stroke-width="4.5"/>
+  <line x1="784" y1="238" x2="784" y2="168" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="1000" y1="238" x2="1000" y2="168" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="788.0" y1="172.0" x2="988.0" y2="172.0" stroke="#dc2626" stroke-width="2.8"/>
+  <polygon points="996.0,172.0 986.0,177.5 986.0,166.5" fill="#dc2626"/>
+  <text x="748" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• ส่งเป็นเส้นตรงแนวสายตาจากเสาถึงเสา</text>
+  <text x="748" y="308" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">• เสาอากาศต้องหันหน้าตรงกันและสูงพ้นความโค้</text>
+  <text x="748" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">  งของโลก (ไมโครเวฟ/ดาวเทียม)</text>
+</svg>

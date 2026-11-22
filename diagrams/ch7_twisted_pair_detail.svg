@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 380" width="100%" height="auto">
+  <rect width="1080" height="380" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 7.3, 7.4 และ 7.5: โครงสร้างสายคู่ตีเกลียว (UTP vs STP) และหัวเชื่อมต่อ RJ-45</text>
+  <rect x="24" y="56" width="336" height="304" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="192" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">รูปที่ 7.3: การตีเกลียวหักล้างสัญญาณรบกวน</text>
+  <path d="M 52 142 Q 92 104 132 142 T 212 142 T 292 142 T 332 142" fill="none" stroke="#2563eb" stroke-width="3.2"/>
+  <path d="M 52 142 Q 92 180 132 142 T 212 142 T 292 142 T 332 142" fill="none" stroke="#dc2626" stroke-width="3.2"/>
+  <text x="44" y="212" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• สาย 2</text>
+  <text x="44" y="234" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">เส้นถูกบิดเป็นเกลียวสลับตำแหน่งใกล้-ไกลแหล่งกำเนิด</text>
+  <text x="44" y="256" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">Noise เท่าๆ กัน</text>
+  <text x="44" y="278" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ที่ปลายทางตัวรับจะนำสัญญาณของ 2</text>
+  <text x="44" y="300" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">เส้นมาหักลบกัน ทำให้สัญญาณรบกวนหักล้างกันหมด!</text>
+  <rect x="378" y="56" width="344" height="304" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="550" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">รูปที่ 7.4: เปรียบเทียบ UTP กับ STP</text>
+  <rect x="398" y="106" width="304" height="102" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="416" y="130" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">UTP (Unshielded Twisted-Pair)</text>
+  <text x="416" y="154" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">มีเฉพาะปลอกพลาสติกหุ้มคู่สายทองแดง</text>
+  <text x="416" y="174" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">ราคาถูก ดัดง่าย นิยมมากที่สุด (Cat 1–7)</text>
+  <rect x="398" y="222" width="304" height="118" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="416" y="246" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">STP (Shielded Twisted-Pair — IBM)</text>
+  <text x="416" y="270" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">เพิ่ม 'เกราะโลหะถัก/ฟอยล์' หุ้มคู่สาย ป้องกัน</text>
+  <text x="416" y="290" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">Crosstalk และ Noise ได้ดีกว่า UTP</text>
+  <text x="416" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">แต่ราคาแพง หนัก และติดตั้งยากกว่า</text>
+  <rect x="740" y="56" width="316" height="304" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="898" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">รูปที่ 7.5: หัวเชื่อมต่อ RJ-45 (8 ขา)</text>
+  <rect x="830" y="108" width="136" height="90" rx="8" fill="#eff6ff" stroke="#2563eb" stroke-width="2.5"/>
+  <rect x="876" y="198" width="44" height="24" rx="4" fill="#cbd5e1" stroke="#475569" stroke-width="1.8"/>
+  <rect x="842" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="856" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="870" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="884" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="898" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="912" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="926" y="114" width="8" height="26" rx="2" fill="#f59e0b"/><rect x="940" y="114" width="8" height="26" rx="2" fill="#f59e0b"/>
+  <text x="898" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="bold" fill="#1e3a8a">8 ขาทองแดง (4 คู่สาย)</text>
+  <text x="760" y="246" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• เป็นหัวแบบ Keyed Connector</text>
+  <text x="760" y="267" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">เสียบได้เพียงทิศทางเดียว (มีสลักล็อกกันหลุด)</text>
+  <text x="760" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• นิยมใช้ในระบบเครือข่าย LAN (Ethernet)</text>
+</svg>

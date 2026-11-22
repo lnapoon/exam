@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 424" width="100%" height="auto">
+  <rect width="1080" height="424" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 8: สัญญาณรบกวน (Crosstalk/EMI/RFI), ขนาดเกจสาย (Gauge) และหัว RJ-45 vs RJ-11</text>
+  <rect x="24" y="56" width="514" height="348" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) สัญญาณรบกวน 3 ชนิดในสายตีเกลียวคู่</text>
+  <rect x="44" y="104" width="474" height="88" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="62" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#991b1b">• Crosstalk (สัญญาณแทรกข้ามสาย):</text>
+  <text x="62" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">สนามแม่เหล็กจากสายคู่หนึ่งเหนี่ยวนำไปรบกวนสายอีกคู่ที่อยู่ติดกัน</text>
+  <text x="62" y="172" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">(ลดได้ด้วยการตีเกลียวให้ถี่ขึ้น หรือใช้สาย STP)</text>
+  <rect x="44" y="206" width="474" height="82" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="62" y="230" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">• EMI (Electromagnetic Interference):</text>
+  <text x="62" y="254" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">การรบกวนจากคลื่นแม่เหล็กไฟฟ้าภายนอก เช่น มอเตอร์ไฟฟ้า เครื่องจักร</text>
+  <text x="62" y="274" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">และหลอดฟลูออเรสเซนต์</text>
+  <rect x="44" y="302" width="474" height="82" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="62" y="326" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">• RFI (Radio Frequency Interference):</text>
+  <text x="62" y="350" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">การรบกวนจากคลื่นวิทยุความถี่สูงในอากาศรอบข้าง</text>
+  <rect x="558" y="56" width="498" height="348" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) ขนาดสาย (Gauge) &amp; หัวต่อ RJ-45 vs RJ-11</text>
+  <rect x="578" y="104" width="458" height="114" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="596" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">• ขนาดสายทองแดง (22–24 เกจ / AWG):</text>
+  <text x="596" y="154" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">จำให้แม่น: ตัวเลขเกจ 'น้อย' = เส้นลวด 'ใหญ่กว่า'!</text>
+  <text x="596" y="175" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">สายเส้นใหญ่ (22 เกจ) ความต้านทานต่ำกว่า</text>
+  <text x="596" y="196" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">จึงส่งข้อมูลได้ไกลกว่าสายเล็ก (24 เกจ)</text>
+  <rect x="578" y="232" width="458" height="152" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="596" y="258" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">• เปรียบเทียบหัวเชื่อมต่อ RJ-45 vs RJ-11:</text>
+  <text x="596" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• RJ-45 (8 ขา / 4 คู่สาย): ใช้กับสายแลนคอมพิวเตอร์ (UTP)</text>
+  <text x="596" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">  - 10BaseT ใช้งานจริงเพียง 4 เส้น (2 คู่)</text>
+  <text x="596" y="328" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">  - 100BaseT ใช้งานครบทั้ง 8 เส้น (4 คู่)</text>
+  <text x="596" y="350" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• RJ-11 (ขนาดเล็กกว่า 4–6 ขา): ใช้กับสายโทรศัพท์บ้าน</text>
+</svg>

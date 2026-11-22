@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 488" width="100%" height="auto">
+  <rect width="1080" height="488" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 10: ตัวอย่างการตั้งหารยาว CRC แบบ Modulo-2 (XOR) ทีละขั้น (ข้อมูล 1001 ÷ ตัวหาร 1011)</text>
+  <rect x="24" y="56" width="514" height="412" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">1) ฝั่งผู้ส่ง: ข้อมูล = 1001, ตัวหาร = 1011 (4 บิต → เติมศูนย์ 3 บิต)</text>
+  <rect x="44" y="104" width="474" height="280" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="154" y="132" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="178" y="132" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">0</text>
+  <text x="202" y="132" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="226" y="132" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">0</text>
+  <text x="332" y="132" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">← ผลหาร (Quotient)</text>
+  <line x1="140" y1="140" x2="316" y2="140" stroke="#0f172a" stroke-width="1.8"/>
+  <text x="130" y="162" text-anchor="end" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#1e3a8a">1011 )</text>
+  <text x="154" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="178" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="202" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="226" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="250" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="274" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="298" y="162" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="332" y="162" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">← เติม 000 ท้ายข้อมูล</text>
+  <text x="154" y="184" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="178" y="184" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="202" y="184" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="226" y="184" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="332" y="184" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">XOR กับ 1011 (บิตนำ=1)</text>
+  <line x1="142" y1="192" x2="238" y2="192" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="178" y="212" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="202" y="212" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="226" y="212" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="250" y="212" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="332" y="212" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ดึง 0 ลงมาได้ 0100</text>
+  <text x="178" y="234" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="202" y="234" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="226" y="234" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="250" y="234" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="332" y="234" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">XOR กับ 0000 (บิตนำ=0)</text>
+  <line x1="166" y1="242" x2="262" y2="242" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="202" y="262" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="226" y="262" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="250" y="262" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="274" y="262" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="332" y="262" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ดึง 0 ลงมาได้ 1000</text>
+  <text x="202" y="284" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="226" y="284" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="250" y="284" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="274" y="284" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="332" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">XOR กับ 1011 (บิตนำ=1)</text>
+  <line x1="190" y1="292" x2="286" y2="292" stroke="#94a3b8" stroke-width="1.4"/>
+  <text x="226" y="312" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="250" y="312" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="274" y="312" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="298" y="312" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="332" y="312" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ดึง 0 ลงมาได้ 0110</text>
+  <text x="226" y="334" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="250" y="334" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="274" y="334" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="298" y="334" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="332" y="334" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">XOR กับ 0000 (บิตนำ=0)</text>
+  <line x1="214" y1="342" x2="310" y2="342" stroke="#dc2626" stroke-width="1.8"/>
+  <text x="250" y="364" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">1</text>
+  <text x="274" y="364" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">1</text>
+  <text x="298" y="364" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">0</text>
+  <text x="332" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">← เศษเหลือ CRC = 110!</text>
+  <text x="44" y="414" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#1e3a8a">• ข้อมูลที่ส่งออกจริง = ข้อมูล + เศษ CRC = 1001110</text>
+  <text x="44" y="444" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">กฎ XOR (Modulo-2): เหมือนกันได้ 0 (0⊕0=0, 1⊕1=0) | ต่างกันได้ 1 (0⊕1=1, 1⊕0=1)</text>
+  <rect x="558" y="56" width="498" height="412" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">2) ฝั่งผู้รับ: หารข้อมูลที่รับ (1001110) ด้วยตัวหาร 1011</text>
+  <rect x="578" y="104" width="458" height="168" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="596" y="130" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">การตรวจสอบและตัดสินใจที่ฝั่งผู้รับ:</text>
+  <text x="596" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• นำ 1001110 มาหารยาว Modulo-2 ด้วยตัวหารเดิม 1011</text>
+  <text x="596" y="182" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• หาก เศษเหลือ = 000 → ข้อมูลถูกต้อง (Accept!) แล้วตัด 3 บิตท้ายทิ้ง</text>
+  <text x="596" y="206" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">เหลือข้อมูลจริง 1001</text>
+  <text x="596" y="230" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• หาก เศษเหลือ ≠ 000 → ข้อมูลเกิดความผิดพลาด (Reject!)</text>
+  <rect x="578" y="286" width="458" height="162" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="596" y="312" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">เกณฑ์เลือกพหุนามตัวหาร (Generator Polynomial) ที่ดี:</text>
+  <text x="596" y="338" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">1. ต้องมีอย่างน้อย 2 พจน์ และพจน์สุดท้ายคือ +1 (x^0) เสมอ</text>
+  <text x="596" y="360" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">2. ตัวอย่างแปลงพหุนาม: x^7 + x^5 + x^2 + x + 1 → 10100111 (8 บิต,</text>
+  <text x="596" y="382" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">CRC ยาว 7 บิต)</text>
+  <text x="596" y="404" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">3. หากมี (x + 1) เป็นตัวประกอบ จะตรวจจับข้อผิดพลาดจำนวนคี่ได้ทั้งหมด</text>
+  <text x="596" y="426" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">100%</text>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 588" width="100%" height="auto">
+  <rect width="1080" height="588" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 1: เปรียบเทียบโทโปโลยีเครือข่ายทั้ง 4 รูปแบบ (Mesh, Star, Bus, Ring)</text>
+  <rect x="24" y="56" width="508" height="246" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) Mesh Topology (เชื่อมต่อสมบูรณ์ทุกโหนด)</text>
+  <line x1="130" y1="112" x2="68" y2="158" stroke="#2563eb" stroke-width="2"/>
+  <line x1="130" y1="112" x2="192" y2="158" stroke="#2563eb" stroke-width="2"/>
+  <line x1="130" y1="112" x2="92" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="130" y1="112" x2="168" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="68" y1="158" x2="192" y2="158" stroke="#2563eb" stroke-width="2"/>
+  <line x1="68" y1="158" x2="92" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="68" y1="158" x2="168" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="192" y1="158" x2="92" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="192" y1="158" x2="168" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <line x1="92" y1="232" x2="168" y2="232" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="130" cy="112" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="68" cy="158" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="192" cy="158" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="92" cy="232" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="168" cy="232" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <text x="224" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• การเชื่อมต่อ: Point-to-Point ทุกคู่</text>
+  <text x="224" y="136" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• สูตรจำนวนสาย = N(N - 1) / 2</text>
+  <text x="224" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• พอร์ตต่อเครื่อง = N - 1 พอร์ต</text>
+  <text x="224" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ตัวอย่าง N = 5 เครื่อง: ใช้สาย 10 เส้น,</text>
+  <text x="224" y="202" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">เครื่องละ 4 พอร์ต</text>
+  <text x="224" y="224" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ข้อดี: ทนทานสูงสุด เป็นส่วนตัว (ข้อเสีย:</text>
+  <text x="224" y="246" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">เปลืองสาย)</text>
+  <rect x="548" y="56" width="508" height="246" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="568" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Star Topology (แบบดาวกระจาย)</text>
+  <line x1="664" y1="174" x2="604" y2="122" stroke="#7c3aed" stroke-width="2.4"/>
+  <line x1="664" y1="174" x2="724" y2="122" stroke="#7c3aed" stroke-width="2.4"/>
+  <line x1="664" y1="174" x2="604" y2="232" stroke="#7c3aed" stroke-width="2.4"/>
+  <line x1="664" y1="174" x2="724" y2="232" stroke="#7c3aed" stroke-width="2.4"/>
+  <rect x="632" y="156" width="64" height="36" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="664" y="179" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">Hub</text>
+  <circle cx="604" cy="118" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="724" cy="118" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="604" cy="236" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="724" cy="236" r="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2.2"/>
+  <text x="756" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ศูนย์กลาง: Hub หรือ Switch</text>
+  <text x="756" y="136" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• การเชื่อมต่อ: Point-to-Point ไปยัง Hub</text>
+  <text x="756" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ใช้สาย N เส้น, เครื่องลูกข่ายใช้แค่ 1 พอร์ต</text>
+  <text x="756" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ข้อดี: สายขาด 1 เส้น กระทบแค่เครื่องนั้น</text>
+  <text x="756" y="202" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ข้อเสีย: ถ้า Hub เสีย ทั้งเครือข่ายล่มทันที!</text>
+  <rect x="24" y="318" width="508" height="250" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="346" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) Bus Topology (แบบบัส — Multipoint)</text>
+  <line x1="74" y1="416" x2="470" y2="416" stroke="#0f172a" stroke-width="4.5"/>
+  <rect x="50" y="404" width="24" height="24" rx="4" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <rect x="470" y="404" width="24" height="24" rx="4" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="62" y="444" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.5" font-weight="bold" fill="#dc2626">End</text>
+  <text x="482" y="444" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.5" font-weight="bold" fill="#dc2626">End</text>
+  <line x1="150" y1="416" x2="150" y2="380" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="150" cy="416" r="5" fill="#dc2626"/>
+  <circle cx="150" cy="368" r="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <line x1="272" y1="416" x2="272" y2="448" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="272" cy="416" r="5" fill="#dc2626"/>
+  <circle cx="272" cy="460" r="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <line x1="394" y1="416" x2="394" y2="380" stroke="#2563eb" stroke-width="2.2"/>
+  <circle cx="394" cy="416" r="5" fill="#dc2626"/>
+  <circle cx="394" cy="368" r="12" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+  <text x="272" y="404" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.5" font-weight="normal" fill="#475569">Backbone + Tap (จุดแดง) + Drop line</text>
+  <text x="44" y="492" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• เชื่อมต่อแบบ Multipoint ใช้สายหลัก (Backbone) เส้นเดียว ประหยัดสายมาก</text>
+  <text x="44" y="513" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ข้อเสีย: สัญญาณสูญเสียพลังงานเป็น 'ความร้อน'</text>
+  <text x="44" y="534" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">และหากสายหลักขาดจะล่มทั้งระบบ</text>
+  <rect x="548" y="318" width="508" height="250" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="568" y="346" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">4) Ring Topology (แบบวงแหวน)</text>
+  <ellipse cx="662" cy="444" rx="68" ry="52" fill="none" stroke="#16a34a" stroke-width="2.8"/>
+  <circle cx="662" cy="392" r="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.2"/>
+  <circle cx="730" cy="444" r="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.2"/>
+  <circle cx="662" cy="496" r="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.2"/>
+  <circle cx="594" cy="444" r="13" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.2"/>
+  <text x="756" y="382" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ส่งข้อมูลทิศทางเดียวรอบวงแหวน</text>
+  <text x="756" y="404" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ทุกโหนดมี Repeater</text>
+  <text x="756" y="426" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">ทวนสัญญาณให้โหนดถัดไป</text>
+  <text x="756" y="448" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• เชื่อม Point-to-Point กับโหนดข้างเคียง 2</text>
+  <text x="756" y="470" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">ข้าง</text>
+  <text x="756" y="492" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">• ข้อเสีย: สายขาด 1 จุด วงแหวนเดี่ยวล่มทันที</text>
+  <text x="756" y="514" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#0f172a">(แก้ด้วย Dual Ring หรือสวิตช์ตัดวงจร)</text>
+</svg>

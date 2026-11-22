@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 452" width="100%" height="auto">
+  <rect width="1080" height="452" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 1: เปรียบเทียบประเภทของเครือข่ายตามขนาดพื้นที่ (LAN vs MAN vs WAN)</text>
+  <rect x="24" y="56" width="328" height="376" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) LAN (Local Area Network)</text>
+  <text x="188" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">เครือข่ายท้องถิ่น</text>
+  <rect x="42" y="124" width="292" height="68" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="188" y="152" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.8" font-weight="bold" fill="#0f172a">ภายในอาคาร / สำนักงาน / มหาวิทยาลัย</text>
+  <text x="188" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ระยะทางไม่กี่กิโลเมตร (เอกชนเป็นเจ้าของ)</text>
+  <text x="44" y="218" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• อัตราความเร็ว (จุดออกสอบ!):</text>
+  <text x="44" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  - อดีต: 4 – 16 Mbps</text>
+  <text x="44" y="262" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  - ปัจจุบัน: 100 Mbps – หลาย Gbps</text>
+  <text x="44" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• โทโปโลยีที่นิยม: Star, Bus, Ring</text>
+  <text x="44" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• จุดประสงค์: แชร์ทรัพยากร เช่น เครื่องพิมพ์</text>
+  <text x="44" y="328" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">ไฟล์</text>
+  <rect x="376" y="56" width="328" height="376" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) MAN (Metropolitan Area Network)</text>
+  <text x="540" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">เครือข่ายระดับเมือง / นครหลวง</text>
+  <rect x="394" y="124" width="292" height="68" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="540" y="152" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.8" font-weight="bold" fill="#0f172a">ใหญ่กว่า LAN แต่เล็กกว่า WAN</text>
+  <text x="540" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ครอบคลุมพื้นที่ภายในเมืองหรือจังหวัด</text>
+  <text x="396" y="218" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ตัวอย่างการใช้งานจริง:</text>
+  <text x="396" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  - ระบบเคเบิลทีวีความเร็วสูงในเมือง</text>
+  <text x="396" y="262" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  - เครือข่ายโทรศัพท์ความเร็วสูงเชื่อมสาขาของ</text>
+  <text x="396" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  บริษัทในเมืองเดียวกัน</text>
+  <text x="396" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• เจ้าของ: บริษัทเอกชนหรือองค์กรสาธารณะ</text>
+  <rect x="728" y="56" width="328" height="376" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) WAN (Wide Area Network)</text>
+  <text x="892" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">เครือข่ายระยะไกลระดับประเทศ/โลก</text>
+  <rect x="746" y="124" width="292" height="68" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="892" y="152" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.8" font-weight="bold" fill="#0f172a">ข้ามจังหวัด / ข้ามประเทศ / ทั่วโลก</text>
+  <text x="892" y="174" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">เชื่อมโยง LAN และ MAN จำนวนมากเข้าด้วยกัน</text>
+  <text x="748" y="218" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• แบ่งเป็น 2 รูปแบบย่อย:</text>
+  <text x="748" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  1. Switched WAN (เชื่อมผ่านสวิตช์หลายตัว เช่น</text>
+  <text x="748" y="262" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">X.25, Frame Relay, ATM)</text>
+  <text x="748" y="284" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  2. Point-to-Point WAN (สายเช่าต่อตรง เช่น</text>
+  <text x="748" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">โมเด็มบ้านเชื่อมไปยัง ISP)</text>
+</svg>

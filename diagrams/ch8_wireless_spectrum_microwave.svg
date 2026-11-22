@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 414" width="100%" height="auto">
+  <rect width="1080" height="414" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 8: สเปกตรัมคลื่นไร้สาย &amp; ระบบไมโครเวฟภาคพื้นดิน (Repeater ทุก 20–30 ไมล์)</text>
+  <rect x="24" y="56" width="1032" height="126" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) ช่วงความถี่ของสื่อไร้สายตามตำราบทที่ 8 (หน้า 182)</text>
+  <rect x="44" y="100" width="238" height="66" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="163" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">คลื่นวิทยุ (Radio Wave)</text>
+  <text x="163" y="150" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">3 kHz – 1 GHz</text>
+  <rect x="296" y="100" width="238" height="66" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="415" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">ไมโครเวฟ (Microwave)</text>
+  <text x="415" y="150" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1 GHz – 300 GHz</text>
+  <rect x="548" y="100" width="238" height="66" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="667" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#991b1b">อินฟราเรด (Infrared)</text>
+  <text x="667" y="150" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">300 GHz – 400 THz</text>
+  <rect x="800" y="100" width="236" height="66" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="918" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">แสง (Visible Light)</text>
+  <text x="918" y="150" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">400 THz – 900 THz</text>
+  <rect x="24" y="198" width="1032" height="196" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="226" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) ไมโครเวฟภาคพื้นดิน (Terrestrial Microwave) และจุดเน้นความหน่วง (Propagation Delay)</text>
+  <path d="M 52 362 Q 286 322 520 362" fill="none" stroke="#16a34a" stroke-width="4.5"/>
+  <line x1="88" y1="352" x2="88" y2="274" stroke="#0f172a" stroke-width="4"/>
+  <line x1="286" y1="336" x2="286" y2="264" stroke="#0f172a" stroke-width="4"/>
+  <line x1="484" y1="352" x2="484" y2="274" stroke="#0f172a" stroke-width="4"/>
+  <line x1="92.0" y1="278.0" x2="274.0" y2="268.4" stroke="#dc2626" stroke-width="2.8"/>
+  <polygon points="282.0,268.0 272.3,274.0 271.7,263.0" fill="#dc2626"/>
+  <line x1="290.0" y1="268.0" x2="472.0" y2="277.6" stroke="#dc2626" stroke-width="2.8"/>
+  <polygon points="480.0,278.0 469.7,283.0 470.3,272.0" fill="#dc2626"/>
+  <text x="184" y="260" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#dc2626">ระยะ 20–30 ไมล์</text>
+  <text x="286" y="252" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#2563eb">Repeater</text>
+  <text x="388" y="260" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#dc2626">ระยะ 20–30 ไมล์</text>
+  <rect x="554" y="240" width="482" height="136" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="572" y="264" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">ตัวเลขสำคัญที่ออกสอบในบทที่ 8:</text>
+  <text x="572" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• ไมโครเวฟภาคพื้นดินต้องตั้ง Repeater ทุก 20–30 ไมล์ (พ้นความโค้งโลก)</text>
+  <text x="572" y="309" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• ความเร็วไมโครเวฟราว 100 Mbps (ทะลุกำแพง/โลหะไม่ได้)</text>
+  <text x="572" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• ดาวเทียม GEO มี Propagation Delay สูงสุดเพราะอยู่ไกล 22,300 ไมล์</text>
+  <text x="572" y="351" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• คลื่นวิทยุแพ้พายุฝนฟ้าคะนอง/ฟ้าผ่า และถูกดักจับได้ง่าย</text>
+</svg>

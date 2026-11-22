@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 436" width="100%" height="auto">
+  <rect width="1080" height="436" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 10: ขั้นตอนการคำนวณ Checksum (จุดเน้นพิเศษที่อาจารย์ขีด ✓ ในสไลด์หน้า 181!)</text>
+  <rect x="24" y="56" width="514" height="360" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#92400e">1) ฝั่งผู้ส่ง: ตัวอย่างชุดข้อมูล 5 ตัว (7, 11, 12, 0, 6)</text>
+  <rect x="44" y="104" width="474" height="292" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="130" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 1: แปลงเป็นฐานสอง 4 บิต แล้วนำทุกตัวมาบวกกัน:</text>
+  <text x="62" y="156" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  7 (0111) + 11 (1011) + 12 (1100) + 0 (0000) + 6 (0110)</text>
+  <text x="62" y="182" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  → ผลรวม (Sum) = 36 = 100100 (ยาว 6 บิต เกิน 4 บิต!)</text>
+  <text x="62" y="208" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 2: Wrap-around Carry (นำบิตเกินด้านซ้ายมาบวกกลับ):</text>
+  <text x="62" y="234" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  แยก 100100 เป็น [10] กับ [0100]</text>
+  <text x="62" y="260" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  นำ 0100 + 0010 = 0110 (เท่ากับ 6)</text>
+  <text x="62" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 3: ทำ 1's Complement (กลับบิต 0 ↔ 1):</text>
+  <text x="62" y="312" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  กลับบิตของ 0110 → ได้ Checksum = 1001 (เท่ากับ 9)</text>
+  <text x="62" y="338" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">→ ส่งข้อมูลพร้อม Checksum ออกไป: (7, 11, 12, 0, 6, 9)</text>
+  <rect x="558" y="56" width="498" height="360" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">2) ฝั่งผู้รับ: รวมข้อมูลทุกตัว + ค่า Checksum (9)</text>
+  <rect x="578" y="104" width="458" height="186" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="596" y="130" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 1: บวกข้อมูลที่รับทั้งหมดรวม Checksum:</text>
+  <text x="596" y="156" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  7 + 11 + 12 + 0 + 6 + 9 = 45 = 101101</text>
+  <text x="596" y="182" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 2: Wrap-around Carry (ทด 2 บิตซ้ายกลับมาบวก):</text>
+  <text x="596" y="208" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">  1101 + 0010 = 1111 (เท่ากับ 15)</text>
+  <text x="596" y="234" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">ขั้นที่ 3: ทำ 1's Complement ของ 1111 → ได้ 0000 (0)</text>
+  <rect x="578" y="304" width="458" height="92" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="596" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#14532d">เกณฑ์สรุปผลของ Checksum:</text>
+  <text x="596" y="356" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ถ้าผลลัพธ์สุดท้ายเป็น 0 ทั้งหมด (0000) → ข้อมูลถูกต้อง (Accept)</text>
+  <text x="596" y="378" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ถ้ามีบิตใดเป็น 1 → ข้อมูลผิดพลาด (Reject)</text>
+</svg>

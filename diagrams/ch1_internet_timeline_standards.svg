@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 482" width="100%" height="auto">
+  <rect width="1080" height="482" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 1: ไทม์ไลน์ประวัติศาสตร์อินเทอร์เน็ต &amp; มาตรฐานสากล (De facto vs De jure + 5 องค์กร)</text>
+  <rect x="24" y="56" width="1032" height="180" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) ไทม์ไลน์ประวัติอินเทอร์เน็ต (จุดออกสอบที่ต้องจำปี ค.ศ. และชื่อเฉพาะ)</text>
+  <line x1="64.0" y1="132.0" x2="1008.0" y2="132.0" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="1016.0,132.0 1006.0,137.5 1006.0,126.5" fill="#2563eb"/>
+  <circle cx="140" cy="132" r="9" fill="#2563eb" stroke="#ffffff" stroke-width="2.5"/>
+  <text x="140" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#2563eb">ยุค 1960s</text>
+  <text x="140" y="158" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">DOD ก่อตั้ง ARPA</text>
+  <text x="140" y="178" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">วิจัยเครือข่ายทหาร</text>
+  <circle cx="395" cy="132" r="9" fill="#7c3aed" stroke="#ffffff" stroke-width="2.5"/>
+  <text x="395" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#7c3aed">ปี 1967</text>
+  <text x="395" y="158" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">เสนอ ARPANET ที่งาน ACM</text>
+  <text x="395" y="178" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">ใช้เครื่อง IMP เชื่อม Host</text>
+  <circle cx="660" cy="132" r="9" fill="#16a34a" stroke="#ffffff" stroke-width="2.5"/>
+  <text x="660" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#16a34a">ปี 1969 (เริ่มใช้งานจริง)</text>
+  <text x="660" y="158" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">เชื่อม 4 มหาวิทยาลัยแรก:</text>
+  <text x="660" y="178" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">UCLA, UCSB, SRI, Utah</text>
+  <text x="660" y="198" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">โพรโตคอลแรกชื่อ NCP</text>
+  <circle cx="915" cy="132" r="9" fill="#dc2626" stroke="#ffffff" stroke-width="2.5"/>
+  <text x="915" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#dc2626">ปี 1972 (TCP/IP)</text>
+  <text x="915" y="158" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">Vint Cerf &amp; Bob Kahn</text>
+  <text x="915" y="178" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">โครงการ Internetting Project</text>
+  <text x="915" y="198" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">แยก TCP ออกเป็น TCP + IP</text>
+  <rect x="24" y="252" width="456" height="210" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="44" y="282" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#92400e">2) ประเภทมาตรฐาน &amp; มาตรฐานอินเทอร์เน็ต</text>
+  <text x="44" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• De facto (โดยพฤตินัย): ไม่ได้รับรองจากองค์กรอย่างเป็นทางการ</text>
+  <text x="44" y="332" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">แต่ได้รับความนิยมแพร่หลายจนเป็นมาตรฐาน</text>
+  <text x="44" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• De jure (โดยนิตินัย):</text>
+  <text x="44" y="376" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">กำหนดและรับรองอย่างเป็นทางการโดยองค์กรมาตรฐานสากล</text>
+  <text x="44" y="398" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• กระบวนการมาตรฐานอินเทอร์เน็ต: Internet Draft (อายุ 6 เดือน)</text>
+  <text x="44" y="420" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">→ Request for Comments (RFC)</text>
+  <rect x="498" y="252" width="558" height="210" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="518" y="282" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">3) องค์กรกำหนดมาตรฐาน 5 แห่งหลักที่ต้องจำ</text>
+  <text x="518" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ISO: องค์กรมาตรฐานสากล (สร้างแบบจำลอง OSI 7 เลเยอร์)</text>
+  <text x="518" y="334" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ITU-T: โทรคมนาคมโลก (เปลี่ยนชื่อจาก CCITT เมื่อ 1 มีนาคม 1993)</text>
+  <text x="518" y="358" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ANSI: สถาบันมาตรฐานแห่งชาติสหรัฐอเมริกา (เอกชนไม่แสวงกำไร)</text>
+  <text x="518" y="382" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• IEEE: วิศวกรไฟฟ้าและอิเล็กทรอนิกส์ (มาตรฐาน LAN: 802.3, 802.11)</text>
+  <text x="518" y="406" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• EIA: อุตสาหกรรมอิเล็กทรอนิกส์ (มาตรฐานขั้วต่อและสายสัญญาณ RS-232)</text>
+</svg>

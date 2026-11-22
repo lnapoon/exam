@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 472" width="100%" height="auto">
+  <rect width="1080" height="472" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 5.8 และ 5.10: แผนผังจำแนกเทคนิคการเข้ารหัสเชิงเส้น (Line Coding) 3 รูปแบบหลัก</text>
+  <rect x="24" y="56" width="1032" height="396" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <rect x="350" y="74" width="380" height="48" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="540" y="103" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14" font-weight="bold" fill="#1e3a8a">การเข้ารหัสเชิงเส้น (Linear Encoding / Line Coding)</text>
+  <line x1="540" y1="122" x2="540" y2="146" stroke="#475569" stroke-width="2.2"/>
+  <line x1="186" y1="146" x2="894" y2="146" stroke="#475569" stroke-width="2.2"/>
+  <line x1="186.0" y1="146.0" x2="186.0" y2="166.0" stroke="#2563eb" stroke-width="2.4"/>
+  <polygon points="186.0,174.0 180.5,164.0 191.5,164.0" fill="#2563eb"/>
+  <line x1="540.0" y1="146.0" x2="540.0" y2="166.0" stroke="#7c3aed" stroke-width="2.4"/>
+  <polygon points="540.0,174.0 534.5,164.0 545.5,164.0" fill="#7c3aed"/>
+  <line x1="894.0" y1="146.0" x2="894.0" y2="166.0" stroke="#16a34a" stroke-width="2.4"/>
+  <polygon points="894.0,174.0 888.5,164.0 899.5,164.0" fill="#16a34a"/>
+  <rect x="44" y="178" width="284" height="254" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="186" y="206" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14" font-weight="bold" fill="#1e3a8a">1. ขั้วเดียว (Unipolar)</text>
+  <text x="186" y="228" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ใช้แรงดันเพียง 1 ระดับ (+V กับ 0V)</text>
+  <text x="64" y="256" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• บิต 1 = ปล่อยแรงดัน +V</text>
+  <text x="64" y="278" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• บิต 0 = 0V (ไม่ปล่อยไฟ)</text>
+  <text x="64" y="300" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• ข้อเสีย: เกิดองค์ประกอบ DC สูง</text>
+  <text x="64" y="322" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">และเสียจังหวะซิงโครไนซ์ง่าย</text>
+  <rect x="354" y="178" width="372" height="254" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="540" y="206" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14" font-weight="bold" fill="#5b21b6">2. เชิงขั้ว (Polar — รูปที่ 5.10)</text>
+  <text x="540" y="228" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ใช้แรงดัน + และ - (แบ่งเป็น 4 วิธีหลัก)</text>
+  <text x="374" y="254" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">1) NRZ: NRZ-L (ตามระดับ) &amp; NRZ-I (ผกผันเมื่อบิต 1)</text>
+  <text x="374" y="276" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">2) RZ (Return to Zero): คืนค่าสู่ 0 ทุกครึ่งบิต</text>
+  <text x="374" y="298" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">3) Manchester: เปลี่ยนขั้วกลางบิต (Ethernet 802.3)</text>
+  <text x="374" y="320" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">4) Diff. Manchester: ดูการเปลี่ยนขั้วที่ต้นบิต (0=เปลี่ยน)</text>
+  <rect x="752" y="178" width="284" height="254" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="894" y="206" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14" font-weight="bold" fill="#14532d">3. สองขั้ว (Bipolar)</text>
+  <text x="894" y="228" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ใช้แรงดัน 3 ระดับ (+, -, 0)</text>
+  <text x="772" y="256" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">1) AMI (Alternate Mark Inversion): 0=0V,</text>
+  <text x="772" y="279" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">1=สลับ +V/-V</text>
+  <text x="772" y="302" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">2) 2B1Q (2 Binary 1 Quaternary): 1</text>
+  <text x="772" y="325" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">พัลส์ส่งได้ 2 บิต (4 ระดับ)</text>
+</svg>

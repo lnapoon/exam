@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 484" width="100%" height="auto">
+  <rect width="1080" height="484" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 2.5, 2.6 และ ตัวอย่างที่ 1 (รูปที่ 2.8): การทำงานของ Physical Layer และ Data Link Layer</text>
+  <rect x="24" y="56" width="504" height="158" rx="12" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#991b1b">รูปที่ 2.5: Physical Layer (ส่งกระแสบิตผ่านสื่อกลาง)</text>
+  <rect x="44" y="100" width="164" height="42" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="126" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#0f172a">From Data Link</text>
+  <rect x="344" y="100" width="164" height="42" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="426" y="126" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#0f172a">To Data Link</text>
+  <line x1="210.0" y1="121.0" x2="334.0" y2="121.0" stroke="#dc2626" stroke-width="2.8"/>
+  <polygon points="342.0,121.0 332.0,126.5 332.0,115.5" fill="#dc2626"/>
+  <text x="276" y="174" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#dc2626">10101000000101111001</text>
+  <text x="276" y="198" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">แปลงบิต 0/1 เป็นสัญญาณไฟฟ้า/แสง ส่งผ่าน Transmission Medium</text>
+  <rect x="548" y="56" width="508" height="158" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="568" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">รูปที่ 2.6: Data Link Layer (ห่อหุ้ม Packet เป็น Frame)</text>
+  <text x="568" y="112" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.4" font-weight="normal" fill="#334155">รับ Packet จาก Network Layer → เติม Header (H2) และ Trailer (T2):</text>
+  <rect x="568" y="128" width="92" height="42" rx="8" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="614" y="154" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="12.2" font-weight="bold" fill="#991b1b">T2 (Trailer)</text>
+  <rect x="666" y="128" width="260" height="42" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="796" y="154" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">Data (Packet จาก L3)</text>
+  <rect x="932" y="128" width="104" height="42" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="984" y="154" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="12.5" font-weight="bold" fill="#1e3a8a">H2 (MAC)</text>
+  <text x="802" y="198" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.4" font-weight="bold" fill="#15803d">ส่งต่อลง Physical Layer (Hop-to-Hop / Node-to-Node Delivery)</text>
+  <rect x="24" y="232" width="1032" height="236" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="260" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">ตัวอย่างที่ 1 (รูปที่ 2.8): การส่งเฟรมภายในเครือข่ายเดียวกัน (โหนด MAC 10 → โหนด MAC 87)</text>
+  <line x1="72" y1="364" x2="1008" y2="364" stroke="#0f172a" stroke-width="4"/>
+  <line x1="130" y1="364" x2="130" y2="392" stroke="#475569" stroke-width="2.5"/>
+  <rect x="88" y="392" width="84" height="48" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="130" y="415" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">MAC: 10</text>
+  <text x="130" y="433" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.2" font-weight="bold" fill="#1d4ed8">ผู้ส่ง (Src)</text>
+  <line x1="335" y1="364" x2="335" y2="392" stroke="#475569" stroke-width="2.5"/>
+  <rect x="293" y="392" width="84" height="48" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="335" y="415" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">MAC: 28</text>
+  <line x1="540" y1="364" x2="540" y2="392" stroke="#475569" stroke-width="2.5"/>
+  <rect x="498" y="392" width="84" height="48" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="540" y="415" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">MAC: 53</text>
+  <line x1="745" y1="364" x2="745" y2="392" stroke="#475569" stroke-width="2.5"/>
+  <rect x="703" y="392" width="84" height="48" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="745" y="415" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">MAC: 65</text>
+  <line x1="950" y1="364" x2="950" y2="392" stroke="#475569" stroke-width="2.5"/>
+  <rect x="908" y="392" width="84" height="48" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="950" y="415" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">MAC: 87</text>
+  <text x="950" y="433" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.2" font-weight="bold" fill="#15803d">ผู้รับ (Dst)</text>
+  <rect x="240" y="282" width="600" height="44" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="540" y="309" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#92400e">เฟรมที่ส่ง: [ T2 (บิตตรวจผิดพลาด) | Data | Src: 10 | Dst: 87 ]</text>
+  <line x1="130.0" y1="344.0" x2="938.0" y2="344.0" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="946.0,344.0 936.0,349.5 936.0,338.5" fill="#2563eb"/>
+  <text x="540" y="456" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.4" font-weight="bold" fill="#334155">โหนด 28, 53, 65 เห็นปลายทาง = 87 ไม่ตรงกับตนเองจึงทิ้งเฟรม เฉพาะโหนด 87 เท่านั้นที่รับเฟรมไปประมวลผล!</text>
+</svg>

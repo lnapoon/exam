@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 564" width="100%" height="auto">
+  <rect width="1080" height="564" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 10.7–10.11: ตัวอย่างการตั้งหารยาว CRC ตรงตามสไลด์หน้า 176 (ข้อมูล 100100 ÷ ตัวหาร 1101)</text>
+  <rect x="24" y="56" width="564" height="488" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">1) ฝั่งผู้ส่ง (รูปที่ 10.8): ข้อมูล 100100 + เติม 000 → หารด้วย 1101</text>
+  <rect x="44" y="100" width="524" height="376" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="148" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="170" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="192" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="214" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="236" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">0</text>
+  <text x="258" y="126" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#7c3aed">1</text>
+  <text x="366" y="126" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">← ผลหาร (Quotient)</text>
+  <line x1="136" y1="134" x2="346" y2="134" stroke="#0f172a" stroke-width="1.8"/>
+  <text x="128" y="156" text-anchor="end" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#1e3a8a">1101 )</text>
+  <text x="148" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="170" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="192" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="214" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="236" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="258" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="280" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="302" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="324" y="156" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="156" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">← เติม 000 (n=3)</text>
+  <text x="148" y="176" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="170" y="176" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="192" y="176" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="214" y="176" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="366" y="176" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 1: XOR 1101</text>
+  <line x1="138" y1="184" x2="226" y2="184" stroke="#94a3b8" stroke-width="1.3"/>
+  <text x="170" y="202" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="192" y="202" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="214" y="202" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="236" y="202" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="202" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ดึง 0 ลงมา</text>
+  <text x="170" y="222" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="192" y="222" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="214" y="222" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="236" y="222" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="366" y="222" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 2: XOR 1101</text>
+  <line x1="160" y1="230" x2="248" y2="230" stroke="#94a3b8" stroke-width="1.3"/>
+  <text x="192" y="248" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="214" y="248" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="236" y="248" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="258" y="248" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="248" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ดึง 0 ลงมา</text>
+  <text x="192" y="268" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="214" y="268" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="236" y="268" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="258" y="268" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="366" y="268" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 3: XOR 1101</text>
+  <line x1="182" y1="276" x2="270" y2="276" stroke="#94a3b8" stroke-width="1.3"/>
+  <text x="214" y="294" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="236" y="294" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="258" y="294" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="280" y="294" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="294" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ดึง 0 ลงมา</text>
+  <text x="214" y="314" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="236" y="314" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="258" y="314" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="280" y="314" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="366" y="314" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 4: XOR 1101</text>
+  <line x1="204" y1="322" x2="292" y2="322" stroke="#94a3b8" stroke-width="1.3"/>
+  <text x="236" y="340" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="258" y="340" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="280" y="340" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="302" y="340" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="340" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ดึง 0 ลงมา (นำ=0)</text>
+  <text x="236" y="360" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="258" y="360" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="280" y="360" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="302" y="360" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#64748b">0</text>
+  <text x="366" y="360" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 5: XOR 0000</text>
+  <line x1="226" y1="368" x2="314" y2="368" stroke="#94a3b8" stroke-width="1.3"/>
+  <text x="258" y="386" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="280" y="386" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">1</text>
+  <text x="302" y="386" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="324" y="386" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#0f172a">0</text>
+  <text x="366" y="386" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ดึง 0 ตัวสุดท้าย</text>
+  <text x="258" y="406" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="280" y="406" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="302" y="406" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">0</text>
+  <text x="324" y="406" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#2563eb">1</text>
+  <text x="366" y="406" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">ขั้น 6: XOR 1101</text>
+  <line x1="248" y1="414" x2="336" y2="414" stroke="#dc2626" stroke-width="2"/>
+  <text x="280" y="438" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">0</text>
+  <text x="302" y="438" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">0</text>
+  <text x="324" y="438" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">1</text>
+  <text x="366" y="438" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.6" font-weight="normal" fill="#475569">← เศษ CRC = 001!</text>
+  <text x="306" y="508" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#1e3a8a">ข้อมูลที่ส่งออกจริง (Data + CRC) = 100100001</text>
+  <text x="306" y="532" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">กฎ XOR: เหมือนกันได้ 0 (0⊕0=0, 1⊕1=0) | ต่างกันได้ 1 (0⊕1=1, 1⊕0=1)</text>
+  <rect x="608" y="56" width="448" height="488" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="628" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">2) ฝั่งผู้รับ (รูปที่ 10.9) &amp; พหุนาม (รูปที่ 10.10–10.11)</text>
+  <rect x="628" y="100" width="408" height="152" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="646" y="126" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">การตรวจสอบที่ฝั่งผู้รับ (รูปที่ 10.9):</text>
+  <text x="646" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• นำข้อมูลพร้อม CRC (100100001)</text>
+  <text x="646" y="174" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">มาหารยาวด้วยตัวหารตัวเดิมคือ 1101</text>
+  <text x="646" y="196" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• เศษเหลือ = 000 → ข้อมูลถูกต้อง (Accept) แล้วตัด 3 บิตท้ายออก</text>
+  <text x="646" y="218" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">เหลือข้อมูลจริง 100100</text>
+  <text x="646" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• เศษเหลือ ≠ 000 → ข้อมูลผิดพลาด (Reject)</text>
+  <rect x="628" y="266" width="408" height="134" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="646" y="292" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.2" font-weight="bold" fill="#5b21b6">การเขียนตัวหารรูปโพลิโนเมียล (รูปที่ 10.10–10.11):</text>
+  <text x="646" y="322" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">10100111 (8 บิต)  →  x^7 + x^5 + x^2 + x + 1</text>
+  <text x="646" y="348" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">• ดีกรีสูงสุด = 7 → บิต CRC ยาว 7 บิต (ตัวหารยาว 8 บิต)</text>
+  <text x="646" y="369" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">• ต้องหารด้วย x ไม่ลงตัว (ต้องลงท้ายด้วย +1 เสมอ)</text>
+  <rect x="628" y="414" width="408" height="114" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="646" y="438" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.2" font-weight="bold" fill="#92400e">มาตรฐานโพลิโนเมียล (ตารางที่ 10.1):</text>
+  <text x="646" y="462" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.4" font-weight="bold" fill="#1e293b">• CRC-8: ATM header   |  • CRC-10: ATM AAL</text>
+  <text x="646" y="485" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.4" font-weight="bold" fill="#1e293b">• ITU-16: HDLC        |  • ITU-32: LANs</text>
+  <text x="646" y="508" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.4" font-weight="bold" fill="#1e293b">(Ethernet)</text>
+</svg>

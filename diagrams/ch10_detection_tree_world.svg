@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 452" width="100%" height="auto">
+  <rect width="1080" height="452" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 10.4 (3 วิธีตรวจสอบความผิดพลาด) และตัวอย่างที่ 1–3 การส่งคำว่า 'world' ด้วย Even-Parity</text>
+  <rect x="24" y="56" width="444" height="344" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">รูปที่ 10.4: วิธีการตรวจสอบความผิดพลาด 3 วิธีหลัก</text>
+  <rect x="94" y="104" width="304" height="42" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="246" y="130" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">การตรวจสอบความผิดพลาด (Error Detection)</text>
+  <line x1="246" y1="146" x2="246" y2="168" stroke="#475569" stroke-width="2"/>
+  <line x1="104" y1="168" x2="388" y2="168" stroke="#475569" stroke-width="2"/>
+  <line x1="104.0" y1="168.0" x2="104.0" y2="184.0" stroke="#2563eb" stroke-width="2.2"/>
+  <polygon points="104.0,192.0 98.5,182.0 109.5,182.0" fill="#2563eb"/>
+  <line x1="246.0" y1="168.0" x2="246.0" y2="184.0" stroke="#7c3aed" stroke-width="2.2"/>
+  <polygon points="246.0,192.0 240.5,182.0 251.5,182.0" fill="#7c3aed"/>
+  <line x1="388.0" y1="168.0" x2="388.0" y2="184.0" stroke="#d97706" stroke-width="2.2"/>
+  <polygon points="388.0,192.0 382.5,182.0 393.5,182.0" fill="#d97706"/>
+  <rect x="44" y="196" width="120" height="74" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="104" y="222" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#1e3a8a">1. Parity Check</text>
+  <text x="104" y="246" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.5" font-weight="normal" fill="#475569">Simple / 2D</text>
+  <rect x="186" y="196" width="120" height="74" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="246" y="222" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#5b21b6">2. CRC</text>
+  <text x="246" y="246" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.5" font-weight="normal" fill="#475569">หาร Modulo-2</text>
+  <rect x="328" y="196" width="120" height="74" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="388" y="222" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="bold" fill="#92400e">3. Checksum</text>
+  <text x="388" y="246" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.2" font-weight="normal" fill="#475569">1's Complement</text>
+  <rect x="44" y="286" width="404" height="96" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="62" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• Parity: ใช้การนับจำนวนเลข 1 (ง่ายที่สุด แทรกบิตได้)</text>
+  <text x="62" y="333" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• CRC: ใช้การหาร XOR (แม่นยำสูงมาก ใช้ใน LAN/HDLC)</text>
+  <text x="62" y="356" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• Checksum: ใช้การบวก 1's Complement (ใช้ใน IP/TCP/UDP)</text>
+  <rect x="488" y="56" width="568" height="376" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="508" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">ตัวอย่างที่ 1–3 (หน้า 173): ส่งคำว่า 'world' ด้วยพาริตี้คู่ (Even-Parity)</text>
+  <rect x="508" y="104" width="528" height="184" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="528" y="130" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.6" font-weight="bold" fill="#1e40af">อักษร   รหัส 7 บิต    นับเลข 1    เติมบิต    ส่งออก 8 บิต</text>
+  <line x1="524" y1="140" x2="1018" y2="140" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="528" y="164" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">  w     1110111      6 (คู่)      0       11101110</text>
+  <text x="528" y="190" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">  o     1101111      6 (คู่)      0       11011110</text>
+  <text x="528" y="216" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">  r     1110010      4 (คู่)      0       11100100</text>
+  <text x="528" y="242" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">  l     1101100      4 (คู่)      0       11011000</text>
+  <text x="528" y="268" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#dc2626">  d     1100100      3 (คี่)      1       11001001</text>
+  <rect x="508" y="300" width="528" height="114" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="526" y="326" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• กรณีถูกรบกวนระหว่างส่ง: ฝั่งรับนับจำนวนเลข 1 ของ 5 อักษรได้ (7, 6, 5, 4, 4)</text>
+  <text x="526" y="348" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">• พบจำนวนเลข 1 เป็นเลขคี่ (7 และ 5) → รู้ทันทีว่าข้อมูลผิดพลาด</text>
+  <text x="526" y="370" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#1e293b">จึงตัดทิ้งและขอให้ส่งใหม่!</text>
+</svg>

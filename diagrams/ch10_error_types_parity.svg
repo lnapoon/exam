@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 448" width="100%" height="auto">
+  <rect width="1080" height="448" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 10: ประเภทความผิดพลาด (Single-Bit vs Burst Error) และ 2D Parity Check</text>
+  <rect x="24" y="56" width="514" height="372" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) เปรียบเทียบ Single-Bit Error vs Burst Error</text>
+  <rect x="44" y="104" width="474" height="108" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="62" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">• Single-Bit Error (ผิดพลาดบิตเดียว):</text>
+  <text x="62" y="156" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">ส่ง: 0 0 0 0 [0] 0 1 0  →  รับ: 0 0 0 0 [1] 0 1 0</text>
+  <text x="62" y="182" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">มีเพียง 1 บิตในหน่วยข้อมูลที่เปลี่ยนค่า (มักเกิดในการส่งแบบขนาน Parallel)</text>
+  <rect x="44" y="226" width="474" height="184" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="62" y="250" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#991b1b">• Burst Error (ผิดพลาดหลายบิต — จุดออกสอบ!):</text>
+  <text x="62" y="280" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#0f172a">ส่ง:</text>
+  <text x="62" y="306" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#0f172a">รับ:</text>
+  <text x="106" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="106" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="132" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="132" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="158" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="158" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <rect x="173" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="184" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#15803d">0</text>
+  <text x="184" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">1</text>
+  <rect x="199" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="210" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="210" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <rect x="225" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="236" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="236" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <rect x="251" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="262" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#15803d">0</text>
+  <text x="262" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">1</text>
+  <rect x="277" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="288" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#15803d">0</text>
+  <text x="288" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">1</text>
+  <rect x="303" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="314" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="314" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <rect x="329" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="340" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="340" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <rect x="355" y="264" width="22" height="48" rx="4" fill="#fee2e2" stroke="#fca5a5" stroke-width="1"/>
+  <text x="366" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#15803d">1</text>
+  <text x="366" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">0</text>
+  <text x="392" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="392" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="418" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="418" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">0</text>
+  <text x="444" y="280" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <text x="444" y="306" text-anchor="middle" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">1</text>
+  <line x1="184.0" y1="324.0" x2="376.0" y2="324.0" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="384.0,324.0 374.0,329.5 374.0,318.5" fill="#dc2626"/>
+  <polygon points="176.0,324.0 186.0,318.5 186.0,329.5" fill="#dc2626"/>
+  <text x="280" y="344" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#dc2626">ความยาว Burst Error = 8 บิต (นับบิตที่ 4 ถึงบิตที่ 11)</text>
+  <text x="62" y="368" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">ข้อควรจำ: นับตั้งแต่ 'บิตแรกที่เพี้ยน' จนถึง 'บิตสุดท้ายที่เพี้ยน'</text>
+  <text x="62" y="387" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12" font-weight="normal" fill="#334155">(รวมบิตตรงกลางที่ไม่เพี้ยนด้วย!) มักเกิดในการส่งแบบอนุกรม</text>
+  <rect x="558" y="56" width="498" height="372" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Two-Dimensional (2D) Parity Check (พาริตี้ 2 มิติ)</text>
+  <text x="578" y="112" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#475569">คำนวณ Even Parity ทั้งแนวนอน (Row) และแนวตั้ง (Column):</text>
+  <rect x="578" y="126" width="458" height="152" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="598" y="154" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">แถวที่ 1:  1  1  0  0  1  0  1  | 0  (Row Parity)</text>
+  <text x="598" y="180" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">แถวที่ 2:  1  0  1  1  1  0  0  | 0</text>
+  <text x="598" y="206" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">แถวที่ 3:  0  1  1  1  0  0  1  | 0</text>
+  <line x1="598" y1="220" x2="1012" y2="220" stroke="#7c3aed" stroke-width="1.8"/>
+  <text x="598" y="246" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1d4ed8">Col Par:  0  0  0  0  0  0  0  | 0</text>
+  <rect x="578" y="292" width="458" height="118" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="596" y="316" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">ความสามารถและจุดอ่อนที่ออกสอบ:</text>
+  <text x="596" y="340" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">• ตรวจจับความผิดพลาด 1, 2 หรือ 3 บิต ได้ 100% เสมอ</text>
+  <text x="596" y="361" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">• จุดอ่อน: หากบิตเสีย 4 บิต ในตำแหน่งมุมสี่เหลี่ยมผืนผ้า (2 แถว × 2</text>
+  <text x="596" y="382" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#1e293b">คอลัมน์ตรงกัน) พาริตี้ไม่เปลี่ยน จึงตรวจจับไม่ได้!</text>
+</svg>

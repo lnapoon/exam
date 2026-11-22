@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 436" width="100%" height="auto">
+  <rect width="1080" height="436" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 1: ประเภทการเชื่อมโยง (Point-to-Point vs Multipoint) และ Hybrid Topology</text>
+  <rect x="24" y="56" width="328" height="360" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) Point-to-Point (จุดต่อจุด)</text>
+  <rect x="44" y="146" width="86" height="48" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="87" y="175" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">โหนด A</text>
+  <rect x="246" y="146" width="86" height="48" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="289" y="175" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">โหนด B</text>
+  <line x1="140.0" y1="170.0" x2="236.0" y2="170.0" stroke="#2563eb" stroke-width="3"/>
+  <polygon points="244.0,170.0 234.0,175.5 234.0,164.5" fill="#2563eb"/>
+  <polygon points="132.0,170.0 142.0,164.5 142.0,175.5" fill="#2563eb"/>
+  <text x="188" y="134" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="bold" fill="#1d4ed8">ลิงก์เฉพาะ (Dedicated)</text>
+  <text x="44" y="232" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">ลักษณะสำคัญ:</text>
+  <text x="44" y="254" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ช่องสัญญาณทั้งหมดสงวนไว้ให้อุปกรณ์เพียง 2</text>
+  <text x="44" y="276" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">ตัวเท่านั้น</text>
+  <text x="44" y="298" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ไม่ต้องแย่งแบนด์วิดท์กับเครื่องอื่น</text>
+  <text x="44" y="320" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ตัวอย่าง: รีโมตทีวีกับทีวี, สายเคเบิลเชื่อม 2</text>
+  <text x="44" y="342" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">เครื่อง, Mesh, Star</text>
+  <rect x="376" y="56" width="328" height="360" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) Multipoint / Multidrop</text>
+  <rect x="396" y="146" width="94" height="48" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="443" y="175" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">Mainframe</text>
+  <line x1="490" y1="170" x2="680" y2="170" stroke="#7c3aed" stroke-width="3.5"/>
+  <line x1="535" y1="170" x2="535" y2="128" stroke="#7c3aed" stroke-width="2.2"/>
+  <circle cx="535" cy="118" r="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="595" y1="170" x2="595" y2="206" stroke="#7c3aed" stroke-width="2.2"/>
+  <circle cx="595" cy="216" r="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="655" y1="170" x2="655" y2="128" stroke="#7c3aed" stroke-width="2.2"/>
+  <circle cx="655" cy="118" r="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="396" y="252" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">ลักษณะสำคัญ:</text>
+  <text x="396" y="274" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• อุปกรณ์มากกว่า 2 ตัว ใช้ลิงก์เดียวกันร่วมกัน</text>
+  <text x="396" y="296" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• แชร์แบบ Spatial (ใช้พร้อมกัน) หรือ Timeshare</text>
+  <text x="396" y="318" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">(ผลัดกันใช้ตามเวลา)</text>
+  <text x="396" y="340" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ตัวอย่าง: Bus Topology</text>
+  <rect x="728" y="56" width="328" height="360" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) Hybrid Topology (แบบผสม)</text>
+  <rect x="846" y="108" width="92" height="34" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="892" y="130" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#92400e">Hub หลัก</text>
+  <line x1="846" y1="125" x2="795" y2="174" stroke="#2563eb" stroke-width="2.2"/>
+  <line x1="752" y1="174" x2="862" y2="174" stroke="#0f172a" stroke-width="3.5"/>
+  <line x1="772" y1="174" x2="772" y2="196" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="772" cy="206" r="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="807" y1="174" x2="807" y2="196" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="807" cy="206" r="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <line x1="842" y1="174" x2="842" y2="196" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="842" cy="206" r="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="807" y="234" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#1d4ed8">กลุ่ม Bus</text>
+  <line x1="938" y1="125" x2="972" y2="165" stroke="#16a34a" stroke-width="2.2"/>
+  <circle cx="978" cy="195" r="28" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <circle cx="978" cy="167" r="9" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="1006" cy="195" r="9" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <circle cx="950" cy="195" r="9" fill="#f0fdf4" stroke="#22c55e" stroke-width="2"/>
+  <text x="978" y="240" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#15803d">กลุ่ม Ring</text>
+  <text x="748" y="266" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">ข้อดีของ Hybrid Topology:</text>
+  <text x="748" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ผสมผสานจุดเด่นของหลายโทโปโลยีเข้าด้วยกัน</text>
+  <text x="748" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• ยืดหยุ่นสูง</text>
+  <text x="748" y="332" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">รองรับองค์กรขนาดใหญ่ที่มีหลายแผนก</text>
+  <text x="748" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">  (เช่น แผนก A ใช้ Star เชื่อมกับแผนก B ที่ใช้</text>
+  <text x="748" y="376" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">Bus)</text>
+</svg>

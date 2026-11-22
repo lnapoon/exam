@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 396" width="100%" height="auto">
+  <rect width="1080" height="396" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 7.20 และ 7.21: ภาพวาดเสาอากาศคลื่นวิทยุ (Omnidirectional) และเสาไมโครเวฟ (Dish &amp; Horn)</text>
+  <rect x="24" y="56" width="328" height="320" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">รูปที่ 7.20: เสาอากาศ Omnidirectional</text>
+  <text x="188" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">(ใช้กับคลื่นวิทยุ Radio Wave)</text>
+  <circle cx="188" cy="186" r="24" fill="none" stroke="#2563eb" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="188" cy="186" r="44" fill="none" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,3"/>
+  <circle cx="188" cy="186" r="64" fill="none" stroke="#60a5fa" stroke-width="1.8" stroke-dasharray="4,3"/>
+  <line x1="188" y1="262" x2="188" y2="186" stroke="#0f172a" stroke-width="4"/>
+  <circle cx="188" cy="186" r="6" fill="#dc2626"/>
+  <text x="44" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• แพร่กระจายคลื่นออกทุกทิศทาง (360°)</text>
+  <text x="44" y="307" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ทะลุผ่านผนัง/อาคารได้ดี เหมาะกับ Multicast</text>
+  <rect x="376" y="56" width="328" height="320" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">รูปที่ 7.21 (ก): Parabolic Dish Antenna</text>
+  <text x="540" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">(จานพาราโบลา — ไมโครเวฟ Unidirectional)</text>
+  <path d="M 464 134 Q 422 194 464 254" fill="none" stroke="#5b21b6" stroke-width="5"/>
+  <circle cx="486" cy="194" r="7" fill="#dc2626"/>
+  <text x="522" y="218" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="bold" fill="#dc2626">Focus</text>
+  <line x1="654.0" y1="152.0" x2="460.0" y2="152.0" stroke="#7c3aed" stroke-width="2.2"/>
+  <polygon points="452.0,152.0 462.0,146.5 462.0,157.5" fill="#7c3aed"/>
+  <line x1="452.0" y1="152.0" x2="477.0" y2="183.7" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="482.0,190.0 471.5,185.6 480.1,178.7" fill="#dc2626"/>
+  <line x1="654.0" y1="194.0" x2="502.0" y2="194.0" stroke="#7c3aed" stroke-width="2.2"/>
+  <polygon points="494.0,194.0 504.0,188.5 504.0,199.5" fill="#7c3aed"/>
+  <line x1="654.0" y1="236.0" x2="460.0" y2="236.0" stroke="#7c3aed" stroke-width="2.2"/>
+  <polygon points="452.0,236.0 462.0,230.5 462.0,241.5" fill="#7c3aed"/>
+  <line x1="452.0" y1="236.0" x2="477.0" y2="204.3" stroke="#dc2626" stroke-width="2"/>
+  <polygon points="482.0,198.0 480.1,209.3 471.5,202.4" fill="#dc2626"/>
+  <text x="396" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• ลำคลื่นขนานตกกระทบจานโค้งแล้วรวมเข้าสู่จุด</text>
+  <text x="396" y="307" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">  โฟกัสเดียว (ส่งพุ่งตรงทิศทางเดียว)</text>
+  <rect x="728" y="56" width="328" height="320" rx="12" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#92400e">รูปที่ 7.21 (ข): Horn Antenna (ปากแตร)</text>
+  <text x="892" y="108" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">(ไมโครเวฟ Unidirectional — แนวเล็ง)</text>
+  <path d="M 800 250 L 800 182 Q 800 144 854 136 L 914 128 L 914 212 L 854 202 Q 832 198 832 250 Z" fill="#fef3c7" stroke="#d97706" stroke-width="3"/>
+  <line x1="922.0" y1="150.0" x2="1010.0" y2="150.0" stroke="#dc2626" stroke-width="2.4"/>
+  <polygon points="1018.0,150.0 1008.0,155.5 1008.0,144.5" fill="#dc2626"/>
+  <line x1="922.0" y1="170.0" x2="1010.0" y2="170.0" stroke="#dc2626" stroke-width="2.4"/>
+  <polygon points="1018.0,170.0 1008.0,175.5 1008.0,164.5" fill="#dc2626"/>
+  <line x1="922.0" y1="190.0" x2="1010.0" y2="190.0" stroke="#dc2626" stroke-width="2.4"/>
+  <polygon points="1018.0,190.0 1008.0,195.5 1008.0,184.5" fill="#dc2626"/>
+  <text x="748" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• รูปทรงคล้ายช้อนตักหรือปากแตร</text>
+  <text x="748" y="307" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">บีบคลื่นไมโครเวฟให้พุ่งออกเป็นลำแคบตรงทิศทางเดียว</text>
+</svg>

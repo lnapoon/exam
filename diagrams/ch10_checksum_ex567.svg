@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 432" width="100%" height="auto">
+  <rect width="1080" height="432" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">รูปที่ 10.12–10.13 และตัวอย่างที่ 5, 6, 7 (หน้า 180–181): การคำนวณ Checksum 8 บิต (จุดเน้น ✓!)</text>
+  <rect x="24" y="56" width="328" height="356" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="188" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">ตัวอย่างที่ 5: ฝั่งผู้ส่ง (สร้าง Checksum)</text>
+  <text x="188" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ข้อมูล 16 บิต แบ่งเป็น 2 ชุด ชุดละ 8 บิต:</text>
+  <rect x="42" y="126" width="292" height="184" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="156" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#0f172a">เซ็กเมนต์ 1:  10101001</text>
+  <text x="62" y="182" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#0f172a">เซ็กเมนต์ 2:  00111001  +</text>
+  <line x1="62" y1="194" x2="314" y2="194" stroke="#64748b" stroke-width="1.6"/>
+  <text x="62" y="220" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#2563eb">ผลรวม (Sum):  11100010</text>
+  <text x="62" y="250" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="bold" fill="#7c3aed">กลับบิต (1's Complement):</text>
+  <text x="62" y="280" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#dc2626">Checksum:     00011101</text>
+  <text x="42" y="336" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="bold" fill="#1e3a8a">ส่งออก 3 ชุด: 10101001  00111001  00011101</text>
+  <rect x="376" y="56" width="328" height="356" rx="12" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="540" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#14532d">ตัวอย่างที่ 6: ฝั่งผู้รับ (ข้อมูลถูกต้อง!)</text>
+  <text x="540" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">นำข้อมูล 2 ชุด + Checksum มาบวกกัน:</text>
+  <rect x="394" y="126" width="292" height="184" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="414" y="154" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#0f172a">เซ็กเมนต์ 1:  10101001</text>
+  <text x="414" y="178" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#0f172a">เซ็กเมนต์ 2:  00111001</text>
+  <text x="414" y="202" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#7c3aed">Checksum:     00011101  +</text>
+  <line x1="414" y1="214" x2="666" y2="214" stroke="#64748b" stroke-width="1.6"/>
+  <text x="414" y="240" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#2563eb">ผลรวม (Sum):  11111111</text>
+  <text x="414" y="274" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#16a34a">Complement:   00000000</text>
+  <text x="394" y="336" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="bold" fill="#14532d">✓ ผลลัพธ์เป็น 0 ทั้งหมด → ยอมรับข้อมูล (Keep!)</text>
+  <rect x="728" y="56" width="328" height="356" rx="12" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="892" y="86" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#991b1b">ตัวอย่างที่ 7: ฝั่งผู้รับ (ผิดพลาด + ทด Carry)</text>
+  <text x="892" y="112" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#dc2626">ข้อมูลเพี้ยนเป็น 10101111 และ 11111001:</text>
+  <rect x="746" y="126" width="292" height="208" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="764" y="152" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">รับชุด 1:    10101111</text>
+  <text x="764" y="174" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">รับชุด 2:    11111001</text>
+  <text x="764" y="196" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#7c3aed">Checksum:    00011101  +</text>
+  <line x1="764" y1="206" x2="1018" y2="206" stroke="#64748b" stroke-width="1.6"/>
+  <text x="764" y="228" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.4" font-weight="bold" fill="#2563eb">ผลรวม:    [1] 11000101 (9 บิต!)</text>
+  <text x="764" y="254" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.4" font-weight="bold" fill="#d97706">ทด Carry 1:   11000101 + 1</text>
+  <text x="764" y="278" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">Sum ใหม่:     11000110</text>
+  <text x="764" y="308" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#dc2626">Complement:   00111001 ≠ 0</text>
+  <text x="746" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="bold" fill="#991b1b">✗ ไม่เป็น 0 ทั้งหมด → ผิดพลาด ตัดทิ้ง (Discard!)</text>
+</svg>

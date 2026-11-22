@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 444" width="100%" height="auto">
+  <rect width="1080" height="444" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 5: การแทนค่าข้อมูล (5 ประเภท), รหัสอักขระ (4 มาตรฐาน) และ Analog vs Digital</text>
+  <rect x="24" y="56" width="1032" height="92" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) ประเภทข้อมูลที่ใช้ในการสื่อสาร 5 ประเภท (Data Representation)</text>
+  <rect x="44" y="98" width="184" height="36" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="136" y="121" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e3a8a">1. ข้อความ (Text)</text>
+  <rect x="246" y="98" width="184" height="36" rx="8" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="338" y="121" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#5b21b6">2. ตัวเลข (Numbers)</text>
+  <rect x="448" y="98" width="184" height="36" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="540" y="121" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#14532d">3. รูปภาพ (Images)</text>
+  <rect x="650" y="98" width="184" height="36" rx="8" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="742" y="121" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#92400e">4. เสียง (Audio)</text>
+  <rect x="852" y="98" width="184" height="36" rx="8" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="944" y="121" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#991b1b">5. วิดีโอ (Video)</text>
+  <rect x="24" y="164" width="540" height="260" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="194" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) มาตรฐานการแทนรหัสตัวอักษร 4 ระบบ (ต้องจำจำนวนบิต!)</text>
+  <text x="44" y="224" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">• ASCII (7 บิต): แทนได้ 2^7 = 128 รูปแบบ (มาตรฐาน ANSI)</text>
+  <text x="44" y="249" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">• Extended ASCII (8 บิต): แทนได้ 2^8 = 256 รูปแบบ</text>
+  <text x="44" y="274" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">• EBCDIC (8 บิต): พัฒนาโดย IBM ใช้ในเครื่อง Mainframe</text>
+  <text x="44" y="299" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">• Unicode (16–32 บิต): แทนได้ทุกภาษาทั่วโลก (รวมภาษาไทย)</text>
+  <text x="44" y="324" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">  (16 บิต = 65,536 รูปแบบ | 32 บิต = 4,294 ล้านรูปแบบ)</text>
+  <text x="44" y="349" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#1e293b">*หมายเหตุ รูปภาพ: แบ่งเป็นจุดพิกเซล (Pixel) ใช้ระบบสี RGB หรือ YCM</text>
+  <rect x="584" y="164" width="472" height="260" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="604" y="194" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) สัญญาณแอนะล็อก vs สัญญาณดิจิทัล</text>
+  <text x="604" y="226" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1d4ed8">• สัญญาณแอนะล็อก (Analog Signal):</text>
+  <path d="M 616 270 Q 648 228 680 270 T 744 270 T 808 270" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <text x="828" y="258" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">ต่อเนื่อง (Continuous)</text>
+  <text x="828" y="278" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">มีค่าได้ไม่จำกัด (เช่น เสียงพูด)</text>
+  <text x="604" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#dc2626">• สัญญาณดิจิทัล (Digital Signal):</text>
+  <path d="M 616 388 L 648 388 L 648 350 L 694 350 L 694 388 L 732 388 L 732 350 L 774 350 L 774 388 L 808 388" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="828" y="366" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">ไม่ต่อเนื่อง (Discrete)</text>
+  <text x="828" y="386" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">มีค่าจำกัด (เช่น 0 และ 1)</text>
+</svg>

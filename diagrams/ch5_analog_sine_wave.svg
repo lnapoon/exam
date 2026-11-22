@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 474" width="100%" height="auto">
+  <rect width="1080" height="474" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 5: คุณสมบัติของสัญญาณแอนะล็อก (Amplitude, Frequency, Phase) &amp; Bandwidth</text>
+  <rect x="24" y="56" width="610" height="248" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) กราฟคลื่นไซน์ในโดเมนเวลา: s(t) = A sin(2πft + φ)</text>
+  <line x1="68" y1="184" x2="600" y2="184" stroke="#64748b" stroke-width="1.8"/>
+  <line x1="68" y1="104" x2="68" y2="260" stroke="#64748b" stroke-width="1.8"/>
+  <path d="M 68 184 C 128 84, 188 84, 248 184 C 308 284, 368 284, 428 184 C 488 84, 548 84, 600 184" fill="none" stroke="#2563eb" stroke-width="3"/>
+  <line x1="158.0" y1="184.0" x2="158.0" y2="120.0" stroke="#dc2626" stroke-width="2.5"/>
+  <polygon points="158.0,112.0 163.5,122.0 152.5,122.0" fill="#dc2626"/>
+  <text x="168" y="146" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#dc2626">Amplitude (A)</text>
+  <line x1="76.0" y1="270.0" x2="420.0" y2="270.0" stroke="#7c3aed" stroke-width="2.5"/>
+  <polygon points="428.0,270.0 418.0,275.5 418.0,264.5" fill="#7c3aed"/>
+  <polygon points="68.0,270.0 78.0,264.5 78.0,275.5" fill="#7c3aed"/>
+  <text x="248" y="292" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#7c3aed">1 คาบเวลา (Period: T) → ความถี่ f = 1 / T (หน่วย Hz)</text>
+  <rect x="652" y="56" width="404" height="248" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="672" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) ค่าวัฏภาคหรือเฟส (Phase: φ)</text>
+  <text x="672" y="114" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="normal" fill="#334155">บอกตำแหน่งเริ่มต้นของคลื่นที่เวลา t = 0:</text>
+  <text x="672" y="144" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• φ = 0°   (0 rad)    → เริ่มที่ 0 พุ่งขึ้น</text>
+  <text x="672" y="172" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• φ = 90°  (π/2 rad)  → ยอดบวกสูงสุด</text>
+  <text x="672" y="200" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• φ = 180° (π rad)    → เริ่มที่ 0 พุ่งลง</text>
+  <text x="672" y="228" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">• φ = 270° (3π/2 rad) → ยอดลบต่ำสุด</text>
+  <text x="672" y="266" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#1e40af">จำ: 1 รอบคลื่น = 360° = 2π เรเดียน</text>
+  <rect x="24" y="320" width="1032" height="134" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="348" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">3) แบนด์วิดท์ (Bandwidth = f_max - f_min) และ การ์ดแบนด์ (Guard Band ป้องกันสัญญาณกวนกัน)</text>
+  <rect x="44" y="368" width="200" height="56" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="144" y="401" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">ช่องสัญญาณที่ 1 (BW)</text>
+  <rect x="252" y="368" width="92" height="56" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="298" y="401" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="bold" fill="#92400e">Guard Band</text>
+  <rect x="352" y="368" width="200" height="56" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="452" y="401" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">ช่องสัญญาณที่ 2 (BW)</text>
+  <text x="580" y="388" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">• แบนด์วิดท์แอนะล็อก: BW = f_max - f_min (หน่วยเป็น Hz)</text>
+  <text x="580" y="412" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">• แบนด์วิดท์ดิจิทัล: อัตราบิตข้อมูลสูงสุดที่ส่งได้ (หน่วยเป็น bps)</text>
+</svg>

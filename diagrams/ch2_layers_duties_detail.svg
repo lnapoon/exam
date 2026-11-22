@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 476" width="100%" height="auto">
+  <rect width="1080" height="476" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 2: เจาะลึกคีย์เวิร์ดหน้าที่สำคัญของทั้ง 5 เลเยอร์ใน Internet Model (ออกสอบบ่อยที่สุด)</text>
+  <rect x="24" y="56" width="1032" height="70" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="44" y="84" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#0f172a">5. Application Layer (ชั้นแอปพลิเคชัน)</text>
+  <text x="44" y="108" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#334155">บริการผู้ใช้โดยตรง: NVT (Network Virtual Terminal), FTAM (ถ่ายโอนไฟล์), บริการอีเมล (Mail), บริการไดเรกทอรี (Directory)</text>
+  <rect x="24" y="138" width="1032" height="70" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="44" y="166" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#0f172a">4. Transport Layer (ชั้นทรานสปอร์ต — Process-to-Process)</text>
+  <text x="44" y="190" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#334155">Port Addressing | Segmentation &amp; Reassembly (แบ่งและประกอบข้อมูล) | Connection Control | Flow &amp; Error Control (End-to-End)</text>
+  <rect x="24" y="220" width="1032" height="70" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="44" y="248" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#0f172a">3. Network Layer (ชั้นเน็ตเวิร์ก — Source-to-Destination)</text>
+  <text x="44" y="272" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#334155">Logical Addressing (IP Address) | Routing (การหาเส้นทางข้ามเครือข่ายผ่าน Router) — ส่ง Packet จากต้นทางถึงปลายทาง</text>
+  <rect x="24" y="302" width="1032" height="70" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="44" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#0f172a">2. Data Link Layer (ชั้นดาต้าลิงก์ — Hop-to-Hop / Node-to-Node)</text>
+  <text x="44" y="354" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#334155">Framing | Physical Addressing (MAC) | Flow Control | Error Control (ใช้ Trailer T2) | Access Control (คุมสิทธิ์ใช้สื่อร่วมกัน)</text>
+  <rect x="24" y="384" width="1032" height="70" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="44" y="412" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#0f172a">1. Physical Layer (ชั้นฟิสิคัล — ส่งบิต 0/1 ผ่านสื่อกลาง)</text>
+  <text x="44" y="436" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.8" font-weight="normal" fill="#334155">ลักษณะสาย/หัวต่อ | การแทนค่าบิตเป็นสัญญาณ | Data Rate (bps) | ซิงโครไนซ์บิต | Line Config | Topology | Transmission Mode</text>
+</svg>

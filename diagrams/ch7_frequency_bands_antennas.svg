@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 444" width="100%" height="auto">
+  <rect width="1080" height="444" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 7: แถบความถี่ไร้สาย 8 แบนด์ (VLF–EHF) และประเภทเสาอากาศ (Omni vs Uni)</text>
+  <rect x="24" y="56" width="616" height="368" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) ตาราง 8 แถบความถี่ไร้สาย (Frequency Bands — คูณ 10 ทีละขั้น!)</text>
+  <text x="44" y="118" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">1. VLF</text>
+  <text x="118" y="118" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">3–30 kHz</text>
+  <text x="266" y="118" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">Ground</text>
+  <text x="336" y="118" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">วิทยุระยะไกล (เรือดำน้ำ)</text>
+  <text x="44" y="150" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">2. LF</text>
+  <text x="118" y="150" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">30–300 kHz</text>
+  <text x="266" y="150" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">Ground</text>
+  <text x="336" y="150" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">วิทยุคลื่นยาว, สัญญาณนำร่อง</text>
+  <text x="44" y="182" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">3. MF</text>
+  <text x="118" y="182" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">300 kHz–3 MHz</text>
+  <text x="266" y="182" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">Sky</text>
+  <text x="336" y="182" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">วิทยุกระจายเสียง AM</text>
+  <text x="44" y="214" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">4. HF</text>
+  <text x="118" y="214" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">3–30 MHz</text>
+  <text x="266" y="214" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">Sky</text>
+  <text x="336" y="214" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">วิทยุคลื่นสั้น, วิทยุสมัครเล่น</text>
+  <text x="44" y="246" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">5. VHF</text>
+  <text x="118" y="246" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">30–300 MHz</text>
+  <text x="266" y="246" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">LOS</text>
+  <text x="336" y="246" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">วิทยุ FM, โทรทัศน์ VHF</text>
+  <text x="44" y="278" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">6. UHF</text>
+  <text x="118" y="278" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">300 MHz–3 GHz</text>
+  <text x="266" y="278" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">LOS</text>
+  <text x="336" y="278" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">ทีวี UHF, มือถือ, Wi-Fi</text>
+  <text x="44" y="310" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">7. SHF</text>
+  <text x="118" y="310" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">3–30 GHz</text>
+  <text x="266" y="310" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">LOS</text>
+  <text x="336" y="310" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">ดาวเทียม, ไมโครเวฟ, เรดาร์</text>
+  <text x="44" y="342" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#1e40af">8. EHF</text>
+  <text x="118" y="342" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">30–300 GHz</text>
+  <text x="266" y="342" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#7c3aed">LOS</text>
+  <text x="336" y="342" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">เรดาร์ขั้นสูง, ดาวเทียมความถี่สูง</text>
+  <text x="44" y="396" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="bold" fill="#dc2626">*ทริคจำ: ไล่จาก 3 kHz คูณ 10 ไปทีละขั้นจนถึง 300 GHz (VLF→LF→MF→HF→VHF→UHF→SHF→EHF)</text>
+  <rect x="660" y="56" width="396" height="368" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="680" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) เสาอากาศ &amp; ทิศทางการแพร่คลื่น</text>
+  <rect x="680" y="104" width="356" height="94" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="698" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">• คลื่นวิทยุ (Omnidirectional):</text>
+  <text x="698" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">กระจายออกทุกทิศทาง (รอบตัว 360°) ทะลุกำแพงได้ดี</text>
+  <text x="698" y="172" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">เหมาะกับการส่งแบบ Multicast (AM/FM)</text>
+  <rect x="680" y="212" width="356" height="98" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="698" y="236" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">• ไมโครเวฟ (Unidirectional):</text>
+  <text x="698" y="260" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">พุ่งตรงทิศทางเดียว (Unicast) ใช้เสาแบบ Parabolic</text>
+  <text x="698" y="280" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">Dish (จานโค้ง) หรือ Horn Antenna (ปากแตร)</text>
+  <rect x="680" y="324" width="356" height="84" rx="10" fill="#fef2f2" stroke="#ef4444" stroke-width="1.8"/>
+  <text x="698" y="348" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#991b1b">• อินฟราเรด (Infrared):</text>
+  <text x="698" y="370" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">ทะลุกำแพงไม่ได้ (ไม่กวนห้องข้างเคียง)</text>
+  <text x="698" y="389" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">ใช้กลางแจ้งไม่ได้เพราะแสงอาทิตย์รบกวน</text>
+</svg>

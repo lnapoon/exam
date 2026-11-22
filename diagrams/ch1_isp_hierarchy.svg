@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 472" width="100%" height="auto">
+  <rect width="1080" height="472" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 1: โครงสร้างลำดับชั้นของ ISP (4 ระดับ) และองค์ประกอบหลักของ Protocol (3 ส่วน)</text>
+  <rect x="24" y="56" width="560" height="396" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">ลำดับชั้นของผู้ให้บริการอินเทอร์เน็ต (ISP Hierarchy 4 ระดับ)</text>
+  <rect x="94" y="104" width="420" height="56" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="304" y="128" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">ระดับที่ 1: International ISP</text>
+  <text x="304" y="148" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">เชื่อมต่อเครือข่ายระดับนานาชาติข้ามประเทศ</text>
+  <line x1="304.0" y1="160.0" x2="304.0" y2="176.0" stroke="#7c3aed" stroke-width="2.5"/>
+  <polygon points="304.0,184.0 298.5,174.0 309.5,174.0" fill="#7c3aed"/>
+  <rect x="64" y="188" width="480" height="58" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="304" y="212" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">ระดับที่ 2: National ISP / NSP (เชื่อมต่อผ่านจุด NAP)</text>
+  <text x="304" y="232" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">เครือข่าย Backbone ระดับประเทศ (SprintLink, PSI Net, ฯลฯ)</text>
+  <line x1="304.0" y1="246.0" x2="304.0" y2="262.0" stroke="#2563eb" stroke-width="2.5"/>
+  <polygon points="304.0,270.0 298.5,260.0 309.5,260.0" fill="#2563eb"/>
+  <rect x="94" y="274" width="420" height="56" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="304" y="298" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">ระดับที่ 3: Regional ISP</text>
+  <text x="304" y="318" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">ผู้ให้บริการระดับภูมิภาค (อัตราข้อมูลต่ำกว่า NSP)</text>
+  <line x1="304.0" y1="330.0" x2="304.0" y2="346.0" stroke="#16a34a" stroke-width="2.5"/>
+  <polygon points="304.0,354.0 298.5,344.0 309.5,344.0" fill="#16a34a"/>
+  <rect x="94" y="358" width="420" height="58" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="304" y="382" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#92400e">ระดับที่ 4: Local ISP (ผู้ให้บริการระดับท้องถิ่น)</text>
+  <text x="304" y="402" text-anchor="middle" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12" font-weight="normal" fill="#475569">เชื่อมต่อโดยตรงแก่ผู้ใช้งานตามบ้าน/องค์กร (End Users)</text>
+  <rect x="604" y="56" width="452" height="396" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="624" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">องค์ประกอบหลักของ Protocol 3 ส่วน</text>
+  <rect x="624" y="104" width="412" height="98" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="642" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">1. ซินแทกซ์ (Syntax) = รูปแบบ / โครงสร้างข้อมูล</text>
+  <text x="642" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">กำหนดลำดับและขนาดบิตของข้อมูล เช่น:</text>
+  <text x="642" y="173" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">[8 บิตแรก: ผู้ส่ง] [8 บิตถัดมา: ผู้รับ] [ส่วนข้อมูล]</text>
+  <rect x="624" y="216" width="412" height="98" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="642" y="240" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">2. ซีแมนติก (Semantics) = ความหมายและการตีความ</text>
+  <text x="642" y="264" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">กำหนดความหมายของแต่ละบิต/ฟิลด์ และการกระทำ</text>
+  <text x="642" y="285" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">เช่น แอดเดรสนี้หมายถึงเส้นทางใด ต้องตอบกลับอย่างไร</text>
+  <rect x="624" y="328" width="412" height="104" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="642" y="352" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">3. ไทม์มิง (Timing) = จังหวะเวลา และอัตราความเร็ว</text>
+  <text x="642" y="376" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">กำหนดว่าส่งเมื่อใด และด้วยความเร็วเท่าใดให้สอดคล้องกัน</text>
+  <text x="642" y="397" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">เช่น ผู้ส่งส่ง 100 Mbps แต่ผู้รับรับได้ 1 Mbps → ข้อมูลล้น</text>
+</svg>

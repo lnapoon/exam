@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 410" width="100%" height="auto">
+  <rect width="1080" height="410" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 2: เจาะลึกหน้าที่ของ Session Layer (ชั้น 5) และ Presentation Layer (ชั้น 6) ใน OSI</text>
+  <rect x="24" y="56" width="508" height="332" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">Layer 5: Session Layer (ชั้นเซสชัน — ผู้ควบคุมการสนทนา)</text>
+  <rect x="44" y="106" width="468" height="114" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="132" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">1. Dialog Control (ควบคุมจังหวะการโต้ตอบ):</text>
+  <text x="62" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">• กำหนดให้ 2 ระบบเริ่มและควบคุมการสนทนากันได้ว่าเป็นการสื่อสารแบบ</text>
+  <text x="62" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">Half-Duplex (สลับกันส่ง) หรือ Full-Duplex (รับ-ส่งพร้อมกัน)</text>
+  <rect x="44" y="234" width="468" height="134" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="260" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">2. Synchronization (การใส่จุดซิงโครไนซ์ / Checkpoint):</text>
+  <text x="62" y="286" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ตัวอย่างตามสไลด์: ส่งไฟล์ขนาด 2,000 หน้า แทรกจุด Checkpoint ทุกๆ</text>
+  <text x="62" y="308" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">100 หน้า → หากระบบล่มที่หน้า 523</text>
+  <text x="62" y="330" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• ไม่ต้องส่งใหม่ตั้งแต่หน้า 1 แต่เริ่มส่งต่อจากหน้า 501 ทันที!</text>
+  <rect x="548" y="56" width="508" height="332" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="568" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">Layer 6: Presentation Layer (ชั้นพรีเซนเทชัน)</text>
+  <text x="568" y="110" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="normal" fill="#475569">ดูแลเรื่องรูปแบบ (Syntax) และความหมาย (Semantics) ของข้อมูล 3 ด้าน:</text>
+  <rect x="568" y="126" width="468" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="586" y="150" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">1. Translation (การแปลรหัสข้อมูล):</text>
+  <text x="586" y="174" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">แปลงรหัสต่างระบบ (เช่น ASCII ↔ EBCDIC) ผ่านรูปแบบกลาง</text>
+  <rect x="568" y="210" width="468" height="72" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="586" y="234" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">2. Encryption / Decryption (การเข้ารหัสและถอดรหัส):</text>
+  <text x="586" y="258" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">รักษาความลับและความปลอดภัยของข้อมูลก่อนส่งข้ามเครือข่าย</text>
+  <rect x="568" y="294" width="468" height="74" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="586" y="318" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#0f172a">3. Compression (การบีบอัดข้อมูล):</text>
+  <text x="586" y="342" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">ลดจำนวนบิตของไฟล์มัลติมีเดีย (ภาพ เสียง วิดีโอ) ให้ส่งเร็วขึ้น</text>
+</svg>

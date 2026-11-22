@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 412" width="100%" height="auto">
+  <rect width="1080" height="412" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 5: เปรียบเทียบ Bipolar AMI vs Pseudoternary &amp; ระดับข้อมูลกับระดับสัญญาณ</text>
+  <rect x="24" y="56" width="514" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) การเข้ารหัสสองขั้ว (Bipolar: ใช้ 3 ระดับ +, 0, -)</text>
+  <rect x="44" y="106" width="474" height="122" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="62" y="132" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#1e3a8a">• AMI (Alternate Mark Inversion):</text>
+  <text x="62" y="156" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">บิต 0 = แรงดัน 0V  |  บิต 1 = สลับขั้ว +V และ -V ไปเรื่อยๆ</text>
+  <text x="62" y="184" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">ข้อมูล:  0    1    0    0    1    1</text>
+  <text x="62" y="208" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#2563eb">สัญญาณ:  0   +V    0    0   -V   +V</text>
+  <rect x="44" y="242" width="474" height="132" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="62" y="268" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#5b21b6">• Pseudoternary (ตรงข้ามกับ AMI):</text>
+  <text x="62" y="292" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.5" font-weight="normal" fill="#334155">บิต 1 = แรงดัน 0V  |  บิต 0 = สลับขั้ว +V และ -V ไปเรื่อยๆ</text>
+  <text x="62" y="318" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#0f172a">ข้อมูล:  0    1    0    0    1    1</text>
+  <text x="62" y="342" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#7c3aed">สัญญาณ: +V    0   -V   +V    0    0</text>
+  <text x="62" y="364" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">ข้อดีทั้งคู่: ไม่มีองค์ประกอบกระแสตรง (DC Component = 0)</text>
+  <rect x="558" y="56" width="498" height="336" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) ระดับข้อมูล (Data Level) &amp; ระดับสัญญาณ (Signal Level)</text>
+  <rect x="578" y="106" width="458" height="122" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="596" y="132" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#14532d">• สัญญาณ 2 ระดับ (L = 2):</text>
+  <text x="596" y="158" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">1 หน่วยสัญญาณ (Signal Element) แทนข้อมูลได้ log2(2) = 1 บิต</text>
+  <text x="596" y="180" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#334155">ระดับ 1 แทนบิต 0  |  ระดับ 2 แทนบิต 1 (เช่น Unipolar, NRZ-L)</text>
+  <rect x="578" y="242" width="458" height="132" rx="10" fill="#fffbeb" stroke="#f59e0b" stroke-width="1.8"/>
+  <text x="596" y="268" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.8" font-weight="bold" fill="#92400e">• สัญญาณหลายระดับ (L = 4 หรือ L = 8):</text>
+  <text x="596" y="294" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• L = 4 → 1 สัญญาณส่งได้ log2(4) = 2 บิต (00, 01, 10, 11)</text>
+  <text x="596" y="316" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.6" font-weight="normal" fill="#1e293b">• L = 8 → 1 สัญญาณส่งได้ log2(8) = 3 บิต (000 ถึง 111)</text>
+  <text x="596" y="354" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#dc2626">สูตรจำสอบ: จำนวนบิตต่อ 1 สัญญาณ = log2(L)</text>
+</svg>

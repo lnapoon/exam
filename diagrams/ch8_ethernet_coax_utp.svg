@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 466" width="100%" height="auto">
+  <rect width="1080" height="466" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 8: มาตรฐานสายแลน (10Base2 vs 10Base5 vs 10BaseT/100BaseT) และตาราง UTP Cat 1–7</text>
+  <rect x="24" y="56" width="480" height="390" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">1) สถาปัตยกรรม Coaxial &amp; UTP ในเครือข่าย LAN</text>
+  <rect x="44" y="104" width="440" height="102" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="62" y="128" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#1e3a8a">• Thin Ethernet (10-Base2 / Thinnet):</text>
+  <text x="62" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#334155">ความเร็ว 10 Mbps | ระยะทางสูงสุด 185 เมตร (~200 ม.)</text>
+  <text x="62" y="173" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#334155">สายโคแอกซ์ขนาดเล็กดัดโค้งง่าย เชื่อมผ่านหัว BNC-T</text>
+  <rect x="44" y="218" width="440" height="106" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="62" y="242" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#5b21b6">• Thick Ethernet (10-Base5 / Thicknet):</text>
+  <text x="62" y="266" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#334155">ความเร็ว 10 Mbps | ระยะ 5,000 ม. (ตามตัวเลขตำราหน้า 179)</text>
+  <text x="62" y="287" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.3" font-weight="normal" fill="#334155">สายโคแอกซ์ขนาดใหญ่แข็งแรง ใช้เป็น Backbone ผ่าน Transceiver</text>
+  <rect x="44" y="336" width="440" height="94" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="62" y="360" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#14532d">• สาย UTP (หัว RJ-45 มี 8 เส้น / 4 คู่):</text>
+  <text x="62" y="384" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• 10BaseT (10 Mbps): ใช้งานจริงเพียง 4 เส้น (2 คู่)</text>
+  <text x="62" y="405" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• 100BaseT (100 Mbps): ใช้งานครบทั้ง 8 เส้น (4 คู่)</text>
+  <rect x="524" y="56" width="532" height="390" rx="12" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="544" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e40af">2) สรุปตารางที่ 8.1 มาตรฐานสาย UTP (Cat-1 ถึง Cat-7)</text>
+  <text x="544" y="118" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-1: เสียงแอนะล็อก (โทรศัพท์ POTS) ไม่เหมาะส่งข้อมูลดิจิทัล</text>
+  <text x="544" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-2: ความเร็ว 4 Mbps (ใช้ในโทรศัพท์ดิจิทัล T-1 และ ISDN)</text>
+  <text x="544" y="186" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-3: ความเร็ว 16 Mbps (มาตรฐานขั้นต่ำของ 10BaseT)</text>
+  <text x="544" y="220" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-4: ความเร็ว 20 Mbps (ใช้ในเครือข่าย Token Ring 16 Mbps)</text>
+  <text x="544" y="254" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-5: ความเร็ว 100 Mbps (ระยะ 100 ม.) / 10 Mbps (ระยะ 300 ม.)</text>
+  <text x="544" y="288" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-5e: ความเร็วสูงสุด 1 Gbps (Gigabit Ethernet)</text>
+  <text x="544" y="322" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-6: ความถี่ 250 MHz (เร็วกว่า Cat-5e 2 เท่า / ลด Crosstalk)</text>
+  <text x="544" y="356" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">• Cat-7 (STP): ความถี่ 600 MHz (มีฉนวนโลหะหุ้มทุกคู่สาย)</text>
+  <text x="544" y="390" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.5" font-weight="normal" fill="#1e293b">*ประวัติ: บริษัท Bell เริ่มใช้ปี ค.ศ. 1881 และแพร่หลายใน LAN ปี ค.ศ. 1990</text>
+</svg>

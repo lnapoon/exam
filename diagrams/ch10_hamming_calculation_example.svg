@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 432" width="100%" height="auto">
+  <rect width="1080" height="432" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="28" y="38" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="19" font-weight="bold" fill="#0f172a">บทที่ 10: ตัวอย่างคำนวณจริง — สร้างรหัส Hamming (11, 7) และตรวจแก้บิตตำแหน่งที่ 7</text>
+  <rect x="24" y="56" width="514" height="356" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.8"/>
+  <text x="44" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#1e3a8a">ขั้นที่ 1: ฝั่งผู้ส่งหาค่า r1, r2, r4, r8 (Even Parity)</text>
+  <text x="44" y="112" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.8" font-weight="bold" fill="#0f172a">ข้อมูล 7 บิต (ตำแหน่ง 11,10,9,7,6,5,3): 1 0 0 1 1 0 1</text>
+  <rect x="44" y="126" width="474" height="196" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="62" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• r1 (1, 3, 5, 7, 9, 11): _, 1, 0, 1, 0, 1 → เลข 1 มี 3 ตัว (คี่) → r1 = 1</text>
+  <text x="62" y="176" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• r2 (2, 3, 6, 7, 10, 11): _, 1, 1, 1, 0, 1 → เลข 1 มี 4 ตัว (คู่) → r2 = 0</text>
+  <text x="62" y="200" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• r4 (4, 5, 6, 7): _, 0, 1, 1 → เลข 1 มี 2 ตัว (คู่) → r4 = 0</text>
+  <text x="62" y="224" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, BlinkMacSystemFont, sans-serif' font-size="12.4" font-weight="normal" fill="#1e293b">• r8 (8, 9, 10, 11): _, 0, 0, 1 → เลข 1 มี 1 ตัว (คี่) → r8 = 1</text>
+  <text x="44" y="350" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">ชุดข้อมูล 11 บิตที่ส่งออก (ตำแหน่ง 11 → 1):</text>
+  <text x="44" y="378" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="14" font-weight="bold" fill="#1d4ed8">1  0  0  [1]  1  1  0  [0]  1  [0]  [1]</text>
+  <text x="44" y="400" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="11.8" font-weight="normal" fill="#475569">(ในวงเล็บคือบิตตรวจสอบ r8=1, r4=0, r2=0, r1=1)</text>
+  <rect x="558" y="56" width="498" height="356" rx="12" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="1.8"/>
+  <text x="578" y="86" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="14.5" font-weight="bold" fill="#5b21b6">ขั้นที่ 2: สมมติบิตตำแหน่งที่ 7 เพี้ยนจาก 1 → 0 ระหว่างส่ง!</text>
+  <text x="578" y="112" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13" font-weight="bold" fill="#dc2626">ฝั่งผู้รับได้รับ: 1 0 0 1 [0] 1 0 0 1 0 1</text>
+  <rect x="578" y="126" width="458" height="168" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="596" y="152" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13" font-weight="bold" fill="#0f172a">ผู้รับคำนวณพาริตี้ใหม่ทั้ง 4 กลุ่ม (คู่ = 0, คี่ = 1):</text>
+  <text x="596" y="178" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.6" font-weight="bold" fill="#1e293b">• กลุ่ม r1 (1,3,5,7,9,11) มีเลข 1 คี่  → c1 = 1</text>
+  <text x="596" y="203" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.6" font-weight="bold" fill="#1e293b">• กลุ่ม r2 (2,3,6,7,10,11) มีเลข 1 คี่ → c2 = 1</text>
+  <text x="596" y="228" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.6" font-weight="bold" fill="#1e293b">• กลุ่ม r4 (4,5,6,7) มีเลข 1 คี่       → c4 = 1</text>
+  <text x="596" y="253" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="12.6" font-weight="bold" fill="#1e293b">• กลุ่ม r8 (8,9,10,11) มีเลข 1 คู่     → c8 = 0</text>
+  <rect x="578" y="306" width="458" height="94" rx="10" fill="#f0fdf4" stroke="#22c55e" stroke-width="1.8"/>
+  <text x="596" y="332" text-anchor="start" font-family='"Menlo", "Consolas", monospace' font-size="13.5" font-weight="bold" fill="#dc2626">เรียงค่า Syndrome (c8 c4 c2 c1) = 0 1 1 1</text>
+  <text x="596" y="358" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="13.5" font-weight="bold" fill="#15803d">แปลงเป็นฐานสิบ = 4 + 2 + 1 = ตำแหน่งที่ 7!</text>
+  <text x="596" y="384" text-anchor="start" font-family='"Thonburi", "Sarabun", -apple-system, sans-serif' font-size="12.2" font-weight="normal" fill="#334155">→ กลับบิตตำแหน่งที่ 7 จาก 0 เป็น 1 ทันทีโดยไม่ต้องส่งใหม่!</text>
+</svg>
